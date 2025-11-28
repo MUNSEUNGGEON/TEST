@@ -1,0 +1,1411 @@
+// JavaScript Document
+
+window.onload=function(){initPages();return;}
+window.onresize=function(){b_INIT_ONRESIZE=!1; goResize();}
+var HEADER_MENUS_ITEM=110, b_INIT_LIVEVIEW_PTZ=!1, b_INIT_MENUS_SETTING=!1, b_INIT_ONRESIZE=!1, ptzbc, m_bInitFlash=false, m_bInitAlarm=false;
+var sNowURLName = "local", nFlashWidth=820, nFlashHeight=560, b_Login=!1, sNowMenuSel=1;
+
+var remoteRight, RBIT_LIVE, RBIT_PTZ, RBIT_PARAM;
+var userGroup = 2;	//0=administrator, 1=operator, 2=viewer
+
+var RIGHT_SIDE = 0;
+var nCurTabNum = 0;
+var bEnterFlag = 0;	//0=login, 1=reset password
+
+var authKeyValue = {};
+
+function KeyDownHandler(){
+	if (bEnterFlag == 1) { if (event.keyCode==13) setpassword(); }
+	else { 	$("lg_out").style.display==""&&event.keyCode==13&&login(); }
+}
+
+function keyUp(e) {}
+
+function setpassword()
+{
+	if ($("password2").value == "")
+	{
+		alert(SZPASSWORDBLANK);
+		$("password2").focus();
+		$("password2").select();
+		return;
+	}
+	else if ($("password2_confirm").value == "")
+	{
+		alert(SZPASSWORDBLANK);
+		$("password2_confirm").focus();
+		$("password2_confirm").select();
+		return;
+	}
+	else if ($("password2").value != $("password2_confirm").value) {
+		alert(SZPASSWORDINCORRECT);
+		$("password2_confirm").value = "";
+		$("password2_confirm").focus();
+		$("password2_confirm").select();
+		return;
+	}
+	else
+	{
+		if (confirm(SZSETPASSWORDCONFIRM))
+		{
+			onClickSetPassword();
+		}
+		else
+		{
+			$("password2").value = $("password2_confirm").value = "";
+			$("password2").focus();
+			$("password2").select();
+		}
+	}
+}
+
+function initPages(){
+/*	try{window.parent.moveTo(0,0);window.parent.resizeTo(screen.availWidth, screen.availHeight);window.parent.focus();}catch(e){}*/
+	if (navigator.appName == "Netscape")		document.onkeydown = keyUp;
+	initLanguage();
+	prelogin();
+	initLanguage();
+	showLogin();
+	$("username").value	= "";
+	$("username").focus();
+	$("username").select();
+	return true;
+}
+function initLanguage(){
+	var nlan = parseInt(getCookies("nLANGUAGE"));
+	if(isNaN(nlan)){
+		try{var syslan=window.navigator.browserLanguage.toLowerCase();if(syslan.indexOf("zh-cn")>-1){m_nLan=1;}else{m_nLan=0;} }catch(e){m_nLan=0;}
+	}else{m_nLan=nlan;}
+	
+	//fix english
+	setDisplay("language_field", 0);
+	m_nLan = 0;
+	//
+	
+	if(m_nLan == 1){m_szLanguage = 'kr';}else{m_szLanguage = 'en';}
+	$("language").value = m_nLan; setCookies("nLANGUAGE", m_nLan, 7);
+	ApplyXmlLang("login.xml", m_szLanguage);
+	LoadMultiString("script.js", m_szLanguage);
+	return true;
+}
+function showLogin(){$("lg_out").style.top="0px";setDisplay("lg_out", 1);setDisplay("main", 0);}
+function funLanguage(a){
+	m_nLan=a; if(m_nLan == 1){m_szLanguage = 'kr';}else{m_szLanguage = 'en';}
+	setCookies("nLANGUAGE", m_nLan, 7); ApplyXmlLang("login.xml", m_szLanguage); LoadMultiString("script.js", m_szLanguage);
+}
+
+function onClickSetPassword()
+{
+	var sURL = "/cgi-bin/login.cgi?action=update&group=SETADMIN", nRanstr = ranString(8);
+	
+	var passwd = $("password2").value;
+	passwd = passwd.replace("#", "%23");
+	passwd = passwd.replace("&", "%26");
+
+	sURL = sURL + "&SETADMIN.password=" + passwd;
+
+	g_xmlhttp.open("GET", sURL, false);
+	g_xmlhttp.setRequestHeader("User-Agent", "IPC_CGI");
+	g_xmlhttp.setRequestHeader("Content-Type", "text/html; charset=UTF-8");
+	
+	SafeHttpSend(g_xmlhttp, null);
+	{if(g_xmlhttp.readyState!=4){return false;}}
+	if (g_xmlDoc!=null){delete g_xmlDoc;g_xmlDoc=null;}
+
+	g_xmlDoc = FormatToXmlDOM(g_xmlhttp); g_xmlDoc.async = false;
+	var re = /root./g, keyValue={};
+	var sText = g_xmlDoc.selectSingleNode("html").text.replace(re,"");
+	
+	if (sText) {
+		keyValue=textToArray(sText);
+		var ErrNO = parseInt(keyValue["ERR.no"]);
+		if(isNaN(ErrNO)||ErrNO!=0){
+			if (ErrNO == 15 || ErrNO == 16)
+				alert(SZPASSWORDCHECK);
+		}
+	
+		parent.location='./';
+	}
+}
+var tmrId = null;
+var tmrSec;
+function checkTimer()
+{
+	setTimeout('checkTimer()', 1000);
+
+	if (tmrSec <= 0) {
+		parent.location='./';
+	}
+	else {
+		var tmWaitMin, tmWaitSec;
+		tmWaitMin = parseInt(tmrSec / 60);
+		tmWaitSec = tmrSec % 60;
+		
+		var strMsg = tmWaitMin + " : ";
+		if (tmWaitSec < 10) strMsg += "0" + tmWaitSec;
+		else				strMsg += tmWaitSec;
+		$("divWaitTime").innerHTML = strMsg;
+
+		$("progress").style.width = ((loginMaxWaitTimes - tmrSec) / loginMaxWaitTimes * 320) + "px";
+	}
+
+	tmrSec --;
+}
+function WaitUnlock()
+{
+	tmrSec = loginWaitTimes;
+	setTimeout('checkTimer()', 1000);
+}
+function disabledLogin(param) {
+	if (param == 1)	//disabled
+	{
+		setDisplay("message_field", 1);
+		setDisplay("login_field", 0);
+		WaitUnlock();
+	}
+	else
+	{
+	}
+}
+
+var loginErrTimes = 0;
+var loginMaxErrTimes = 5;
+var loginWaitTimes = 0;
+var loginMaxWaitTimes = 0;
+
+function textToArray2(rs){
+	var keyVal={};
+	var reg=/([\w]+)="([\S|\f|\t|\v]*)"/g;
+	rs.replace(reg,function(a,b,c){keyVal[b]=c;/*alert(b+":"+c);*/});
+	return keyVal;
+}
+
+function prelogin(){//Login interaction
+	var sURL = "/cgi-bin/login.cgi?action=list&group=PRELOGIN", nRanstr = ranString(8);
+	
+	if (config_authentication == 0) {
+		var b = new Base64();
+		var str = b.encode($("username").value+":"+$("password").value);
+	}
+	if(bDEBUG==1) sURL = "./xmltest/loginxml.xml?action=list&group=PRELOGIN";
+	sURL = sURL + "&UserID="+ nRanstr +""; m_nChannel=1;
+	g_xmlhttp.open("GET", sURL, false);
+	g_xmlhttp.setRequestHeader("User-Agent", "IPC_CGI");
+	g_xmlhttp.setRequestHeader("Content-Type", "text/html; charset=UTF-8");
+	if (config_authentication == 0) {
+		g_xmlhttp.setRequestHeader("Authorization","Basic "+str);
+	}
+	SafeHttpSend(g_xmlhttp, null);
+	{if(g_xmlhttp.readyState!=4){return false;}}
+	if (g_xmlDoc!=null){delete g_xmlDoc;g_xmlDoc=null;}
+
+	g_xmlDoc = FormatToXmlDOM(g_xmlhttp); g_xmlDoc.async = false;
+	var re = /root./g, keyValue={};
+	var sText = g_xmlDoc.selectSingleNode("html").text.replace(re,"");
+	if(sText){
+		keyValue=textToArray(sText);
+//		devLanguage = parseInt(keyValue["PRELOGIN.language"]);
+		loginErrTimes = parseInt(keyValue["PRELOGIN.loginErrTimes"]);
+		loginMaxErrTimes = parseInt(keyValue["PRELOGIN.loginMaxErrTimes"]);
+		loginWaitTimes = parseInt(keyValue["PRELOGIN.loginWaitTimes"]);
+		loginMaxWaitTimes = parseInt(keyValue["PRELOGIN.loginMaxWaitTimes"]);
+		
+		//check admin password reset field
+		if (parseInt(keyValue["PRELOGIN.changePassword"]) == 1)
+		{
+			resetPage();
+			return 0;
+		}
+		
+		//check error times
+		var strMsg = "";
+		if (loginWaitTimes > 0)
+		{
+			disabledLogin(1);
+
+			strMsg = SZLOGINLOCKED.replace("MM", parseInt(loginMaxWaitTimes / 60));
+			
+			$("divWaitMsg").innerHTML = strMsg;
+			return 0;
+		}
+		var sAuth=g_xmlhttp.getResponseHeader("WWW-Authenticate");
+		if(sAuth) {
+			authKeyValue=textToArray2(sAuth);
+		}
+		
+		
+		if (keyValue["PRELOGIN.adminUser"] == undefined) {
+		}
+
+		m_szPreLonginAdminUser = keyValue["PRELOGIN.adminUser"];
+		setCookies("szPreLonginAdminUser", m_szPreLonginAdminUser, 7);
+	}
+}
+
+function login(){
+	//check error time
+	if (loginErrTimes == loginMaxErrTimes)		return 0;
+
+	var sURL = "/cgi-bin/login.cgi?action=list&group=LOGIN", nRanstr = ranString(8);
+	if (config_authentication == 0) {
+		var b = new Base64();
+		var str = b.encode($("username").value+":"+$("password").value);
+	}
+	if(bDEBUG==1) sURL = "./xmltest/loginxml.xml?action=list&group=LOGIN";
+	sURL = sURL + "&UserID="+ nRanstr +""; m_nChannel=1;
+	g_xmlhttp.open("GET", sURL, false);
+	g_xmlhttp.setRequestHeader("User-Agent", "IPC_CGI");
+	g_xmlhttp.setRequestHeader("Content-Type", "text/html; charset=UTF-8");
+	if (config_authentication == 0) {
+		g_xmlhttp.setRequestHeader("Authorization","Basic "+str);
+	} else {
+		set_digest_header(g_xmlhttp, authKeyValue, "GET", $("username").value, $("password").value, nRanstr, sURL);
+	}
+	SafeHttpSend(g_xmlhttp, null);
+	{if(g_xmlhttp.readyState!=4){return false;}}
+	if (g_xmlDoc!=null){delete g_xmlDoc;g_xmlDoc=null;}
+	
+	g_xmlDoc = FormatToXmlDOM(g_xmlhttp); g_xmlDoc.async = false;
+	var re = /root./g, keyValue={};
+	var sText = g_xmlDoc.selectSingleNode("html").text.replace(re,"");
+	if(sText){
+		keyValue=textToArray(sText);
+		var devType = parseInt(keyValue["LOGIN.devType"]);
+		var chnCount = parseInt(keyValue["LOGIN.chnCount"]);
+		var rtspPort = parseInt(keyValue["LOGIN.rtspPort"]);
+		var rtmpPort = parseInt(keyValue["LOGIN.rtmpPort"]);
+		var msgPort  = parseInt(keyValue["LOGIN.msgPort"]);
+		var synTime = parseInt(keyValue["LOGIN.synTime"]);
+		
+		if (keyValue["LOGIN.remoteRight"] == undefined) {
+			keyValue["LOGIN.remoteRight"] = "-1";
+		}
+		
+		remoteRight = parseInt(keyValue["LOGIN.remoteRight"], 10)>>>0;
+		
+		if (((remoteRight & 1024) != 0) && ((remoteRight & 0x02) != 0)) {
+			userGroup = 0;	//administrator
+		} else if (((remoteRight & 1024) == 0) && ((remoteRight & 0x02) != 0)) {
+			userGroup = 1;	//operator
+		} else if (((remoteRight & 1024) == 0) && ((remoteRight & 0x02) == 0) && ((remoteRight & 0x01) != 0)) {
+			userGroup = 2;	//viewer
+		}
+		
+		setCookies("RemoteRight", remoteRight, 7);
+		
+		var ErrNO = parseInt(keyValue["ERR.no"]);
+		szUserName = /*var szUsername = */$("username").value;
+		szPassWord = /*var szPassword = */$("password").value;
+		if(isNaN(ErrNO)||ErrNO!=0){
+			var strMsg = SZLOGINFAILED;
+			if (loginErrTimes > 0) {
+				strMsg += SZLOGINFAILEDDETAIL;
+				strMsg = strMsg.replace("MAXERRTIMES", loginMaxErrTimes);
+				strMsg = strMsg.replace("LOGINERRTIMES", loginErrTimes+1);
+			}
+			if (loginErrTimes < 5)
+				alert(strMsg);
+			parent.location='./';
+			return false;
+		}
+		m_nChannel=chnCount;
+		setCookies("nDevType", devType, 7);
+		setCookies("nChnCount", chnCount, 7);
+		setCookies("nRtspPort", rtspPort, 7);
+		setCookies("nRtmpPort", rtmpPort, 7);
+		setCookies("nMsgPort", msgPort, 7);
+		/*
+		if(synTime==1){
+			var action="update", group="TIME", nCMD=9549, dtNow=new Date();
+			var szURL="/cgi-bin/devInfo.cgi?action=update&group=TIME&TIME.time="+dateFormat(dtNow, "yyyy-MM-dd/HH:mm:ss");
+			sendBTNSetting(false, action, group, nCMD, szURL);
+			if(bDEBUG==1){alert(szURL);}
+		}*/
+	}else{alert(ALERTLOGINCON+"~");return false;}
+	gotoLogin(); return true;
+}
+
+function getSysInfo(){
+	sendBTNSetting(false,"list", "SYSINFO", 1951, "/cgi-bin/devInfo.cgi?action=list&group=SYSINFO");
+}
+
+var PowerPtzSupp = 1;
+var typeMB = 0;
+function getMotionVersion(fwVer){
+	typeMB = parseInt(fwVer.substring(fwVer.lastIndexOf(".")+1));
+
+	if (userGroup == 2)	return;
+	switch (typeMB)
+	{
+		case 0x41:	//A
+			setDisplay($("fieldWiper"), 1); bg_main.className = "bg_main";
+			$("mn_3dptz").className="tabbtn btn3dPtzdis"; PowerPtzSupp = 0;
+			ptzbc.set(50);
+			break;
+		case 0x42:	//B
+			setDisplay($("fieldWiper"), 1); bg_main.className = "bg_main";
+			$("mn_3dptz").className="tabbtn btn3dPtz"; PowerPtzSupp = 1;
+			ptzbc.set(30);
+			break;
+		case 0x59:	//pelco-d / rs485
+			setDisplay($("fieldWiper"), 1); bg_main.className = "bg_main";
+			$("mn_3dptz").className="tabbtn btn3dPtzdis"; PowerPtzSupp = 0;
+			ptzbc.set(30);
+			break;
+		case 0x43:	//new housing bullet (p2000/a1020)
+			setDisplay($("fieldWiper"), 1); bg_main.className = "bg_main";
+			$("mn_3dptz").className="tabbtn btn3dPtz"; PowerPtzSupp = 1;
+			ptzbc.set(30);
+			break;
+		case 0x4B:	//K
+			setDisplay($("fieldWiper"), 0); bg_main.className = "bg_main";
+			$("mn_3dptz").className="tabbtn btn3dPtz"; PowerPtzSupp = 1;
+			ptzbc.set(50);
+			break;
+		case 0x5A:	//6
+		case 0x46:	//S
+			setDisplay($("fieldWiper"), 0); bg_main.className = "bg_main";
+			$("mn_3dptz").className="tabbtn btn3dPtz"; PowerPtzSupp = 1;
+			ptzbc.set(60);
+			break;
+		default:
+			setDisplay($("fieldWiper"), 0); bg_main.className = "bg_main";
+			$("mn_3dptz").className="tabbtn btn3dPtz"; PowerPtzSupp = 1;
+			ptzbc.set(50);
+			break;
+	}
+}
+
+function resetPage(){
+	setDisplay("reset_field", 1);
+	setDisplay("login_field", 0);
+	$("password2").focus();
+	$("password2").select();
+	bEnterFlag = 1;
+}
+function gotoLogin(){b_Login=!1; initMainPage(); goMain(0); b_Login=1; manualResize(); initFlash(); initAlarmField(); checkMenuCapability();}
+function initMainPage(){
+	setDisplay("lg_out", 0);
+	$("main").style.top="0px";
+	setDisplay("main", 1);
+		
+	if (userGroup == 0) {
+		$("preview").addEvent("click",function(){goMain(0)});
+		$("search").addEvent("click",function(){goMain(3)});
+		$("config").addEvent("click",function(){goMain(2)});
+	}
+
+	changeNavStyle($("preview"));
+
+	//add
+	loadBodyInnerHTML("mb_menubar", "pages/body_menu_bar.html");
+	
+	if (userGroup == 2) {
+		$("mn_ptz").className = "tabbtn btnPtzdis";
+		$("mn_aux").className = "tabbtn btnAuxdis";
+		$("mn_3dptz").className = "tabbtn btn3dPtzdis";
+		$("mn_snap").className = "tabbtn btnSnapdis";
+		$("mn_rec").className = "tabbtn btnLocalRecdis";
+		$("mn_talk").className = "tabbtn btnTalkdis";
+		$("mn_voice").className = "tabbtn btnVoicedis";
+		$("mn_close").className = "tabbtn btnClosedis";
+	}	
+}
+function changeNavStyle(a){$("divnav").getElements("a").each(function(a){a.className="nav_"+a.id}); a.className="nav_"+a.id+"1";}
+
+function goMain(a){
+	b_INIT_ONRESIZE=1;
+	switch(a){
+		case 0:	//Live Preview
+			changeNavStyle($("preview"));
+			goPreview(0);
+			if(sNowURLName != "local"){$("set_fm").src="btnhit.htm"};
+			break;
+
+		case 2:	//Set up
+			onPause(0);
+			if (bLocalRec==1)
+			{
+				if (confirm(SZRECORDINGSTOPMSG))
+				{
+					funLocalRec($("mn_rec"));
+				}
+				else
+					break;
+			}
+			changeNavStyle($("config"));
+			goSysConfig(2);
+			if (PowerPtzSupp==1 && b3DPTZZ==1)	fun3DPTZ($("mn_3dptz"));
+			break;
+
+		case 3:	//Replay(Search)
+			onPause(0);
+			if (bLocalRec == 1)
+			{
+				if (confirm(SZRECORDINGSTOPMSG))
+				{
+					funLocalRec($("mn_rec"));
+				}
+				else
+					break;
+			}
+			changeNavStyle($("search"));
+			goReplay(3);
+			if (PowerPtzSupp==1 && b3DPTZZ==1)	fun3DPTZ($("mn_3dptz"));
+			break;
+
+		case 1:break;
+		case 110:goLogout(110);	break;	//drop out
+		default:goLogout(110);	break;	//Otherwise login
+	}
+	HEADER_MENUS_ITEM=a; manualResize();
+}
+function goPreview(a){//Live View
+	if(HEADER_MENUS_ITEM==0){
+		return false;
+	}
+	setDisplay("mb", 1); setDisplay("mb0", 0); setDisplay("mb1", 0); setDisplay("mb3", 0); $("set_fm").src="";
+	if(!b_INIT_LIVEVIEW_PTZ){
+		loadBodyInnerHTML("mb_adjust", "pages/body_ptzctrl.html"); ApplyXmlLang("body_ptzctrl.xml", m_szLanguage);
+		if(typeof(ptzbc)!="object"){ptzbc=new Slider($("bcx"), $("bck"), {steps:100, wheel:!0, onChange:function(a){$("bck").setProperty("title", a); $("t_bcn").setProperty("text", a);}});}
+		ptzbc.set(30);
+		initLiveView();
+		b_INIT_LIVEVIEW_PTZ=1;
+		if(SZABILITY==null){getAbility();}
+
+		getSysInfo();
+
+		var iDevType=parseInt(SZABILITY["ABILITY.devType"]);
+		if(iDevType==1||iDevType==4){setDisplay("liPtz", 1);}
+		$("mb_adjust").style.display="none";
+	}
+	
+	if (userGroup == 0) {
+		$("search").className = "nav_search";
+		$("config").className = "nav_config";
+		$("b_search").style.color = "#77644d";
+		$("b_config").style.color = "#ac4f21";
+	} else {
+		$("search").className = "nav_search_dis";
+		$("config").className = "nav_config_dis";
+		$("b_search").style.color = "#272019";
+		$("b_config").style.color = "#34180b";
+	}
+	//
+	m_iCurChannel=0;
+	if(bLogin["netVideo"]==1){
+		if(bPreview["netVideo"]==0){
+			$("netVideo").OpenVideo(0, $("selChannel").value);
+			bPreview["netVideo"]=1;
+		}
+	}
+	if (nCurTabNum == 2)	{ getAlarmStatus(); }
+	else { if (tmrAlarmStatus)	clearTimeout(tmrAlarmStatus); }
+	onchangePresetList(1);
+	setTimeout("getCamPos()", 500);
+}
+function goReplay(a){//Replay
+	if(HEADER_MENUS_ITEM==3){return false;}
+	if (tmrAlarmStatus)	clearTimeout(tmrAlarmStatus);
+	setDisplay("mb", 0); setDisplay("mb3", 1); setDisplay("mb0", 0); setDisplay("mb1", 0); $("replay_fm").src="./replay.asp";
+	if(bLogin["netVideo"]==1&&bPreview["netVideo"]==1){$("netVideo").CloseVideo(0);bPreview["netVideo"]=0;}
+
+	var valUrl = "./replay.asp";
+	document.getElementById('replay_fm').contentWindow.location=valUrl;
+}
+function goSysConfig(a){//Config
+	if(HEADER_MENUS_ITEM==2){return false;}
+	setDisplay("mb", 0); setDisplay("mb3", 0); setDisplay("mb0", 0); setDisplay("mb1", 1);
+	if(!b_INIT_MENUS_SETTING){
+		loadBodyInnerHTML("mb1_setting_bar", "pages/body_setting.html"); //Loading device function menu
+		LoadMultiJS("js/", "setting.js", "initConfigPage(1);"); //Loading script
+		ApplyXmlLang("body_setting.xml", m_szLanguage);
+		b_INIT_MENUS_SETTING=1;
+		if(SZABILITY==null){getAbility();}
+		var szDevType=parseInt(SZABILITY["ABILITY.sysCap"]).toString(2),bWifi=parseInt(szDevType.substr(szDevType.length-1, 1));
+		if(szDevType.length>0&&bWifi==1){setDisplay("le_ptz",1);}else{setDisplay("le_ptz",0);}
+	}else{
+		goFrameURL(sNowURLName, sNowMenuSel);
+	}
+	if (tmrAlarmStatus)	clearTimeout(tmrAlarmStatus);
+	if(bLogin["netVideo"]==1&&bPreview["netVideo"]==1){$("netVideo").CloseVideo(0);bPreview["netVideo"]=0;}
+}
+
+function logoutOcx(obj)
+{
+	if(bLogin[obj]==1)
+	{
+		$(obj).Logout();
+	}
+	bLogin[obj]=0;
+	$(obj).Release();
+	uninitOcx();
+	// clr password cookies
+	setCookies("szPassword", "", 7);
+}
+function closeVideoOcx(obj)
+{
+	if(bLogin[obj]==1 && bPreview[obj]==1)
+	{
+		$(obj).CloseVideo(0);
+		bPreview[obj]=0;
+
+		//by lauds
+		if (tmrAlarmStatus)	clearTimeout(tmrAlarmStatus);
+	}
+}
+function goLogout(a)
+{
+	closeVideoOcx("netVideo");
+	logoutOcx("netVideo");
+	parent.location='./';
+}
+function manualResize(){
+	b_INIT_ONRESIZE=!1; goResize();
+}
+function goResize(){if(!b_Login){return;}
+	if(onReTOS<3&&b_INIT_ONRESIZE){if(timeProcess_RESIZE)clearInterval(timeProcess_RESIZE);timeProcess_RESIZE=setTimeout("goResize();", (3-onReTOS)*1000);return false};
+	var a, b;
+	var myos = appInfo();
+	a = document.documentElement.clientWidth;
+	b = document.documentElement.clientHeight;
+
+	if(a < 1024) a = 1024;
+	if(b < 670) b = 670;
+	a = a - 10;
+	b = b - 10;
+
+	switch(HEADER_MENUS_ITEM){
+		case 0:
+			if(myos.version==6){a = a - 17;b = b - 17;}
+
+			var mb_w, mb_h;
+			mb_w = a;
+			mb_h = b - 45 - 10;	//nav.height = 45px
+
+			$("mb").setStyle("width", mb_w + "px");
+			$("mb").setStyle("min-width", mb_w + "px");
+			$("mb").setStyle("height", mb_h + "px");
+
+			var act_w, act_h;
+			act_w = mb_w - 60;
+			act_h = mb_h;
+
+			$("videoH").setStyle("width", act_w + "px");
+			$("videoH").setStyle("height", act_h + "px");
+
+
+			nFlashWidth = act_w - RIGHT_SIDE;
+			nFlashHeight = nFlashWidth * 0.5625;
+			if (nFlashHeight > act_h) {
+				nFlashHeight = act_h;
+				nFlashWidth = act_h / 0.5625;
+			}
+
+
+			act_w = act_w - RIGHT_SIDE - 2;
+			act_h = act_h - 2;
+			var paddingTop = parseInt((act_h - nFlashHeight) / 2, 10);
+			if (paddingTop < 0)		paddingTop = 0;
+
+			$("video1").setStyle("width", act_w + "px");
+			$("video1").setStyle("height", (act_h - paddingTop) + "px");
+
+
+			if (act_h > nFlashHeight)	$("video1").setStyle("paddingTop", paddingTop + "px");
+			else						$("video1").setStyle("paddingTop", "0px");
+
+
+			$("flashcontent").setStyle("width", nFlashWidth + "px");
+			$("flashcontent").setStyle("height", nFlashHeight + "px");
+
+			if (m_bInitFlash)
+			{
+				$("netVideo").style.width = nFlashWidth + "px";
+				$("netVideo").style.height = nFlashHeight + "px";
+			}
+			break;
+		case 1:
+			break;
+		case 2:
+			if(myos.version==6){a = a - 17;b = b - 17;}
+			$("mb1").setStyle("min-width", a+"px");
+			$("mb1").setStyle("width", a+"px");
+			$("mb1").setStyle("height", (b-70)+"px");
+
+			$("mb1_setting_bar").setStyle("height", (b-78) + "px");
+			$("div_line_bar").setStyle("height", (b-178) + "px");
+			$("mb1_setting_fm").setStyle("width", (a-202) + "px");
+			$("mb1_setting_fm").setStyle("height", (b-78) + "px");
+			$("div_line_fm").setStyle("height", (b-78) + "px");
+
+
+			if(myos.version==6){
+				$("set_fm").setStyle("width", (a-208) + "px");
+				$("set_fm").setStyle("height", (b-78) + "px");
+			}
+
+			break;
+		case 3:
+			$("mb3").setStyle("min-width", a+"px");
+			$("mb3").setStyle("width", a+"px");
+			$("mb3").setStyle("height", (b-65)+"px");
+			break;
+		default:
+			$("main").style.display="none";
+			$("lg_out").style.display="";
+			$("lg_out").style.top="0px";
+			$("lg_out").setStyle("height", (b-10)+"px");
+			break;
+	}
+	onReTOS=0; b_INIT_ONRESIZE=1;
+	return true;
+}
+
+var tmrAlarmStatus = null;
+var tmrZoomPosStatus = null;
+
+var preZoomPos = -1;
+var preFocusPos = 0;
+function showCurrentCamPos(zoompos, focuspos)
+{
+	$("t_bb00").innerHTML = zoompos;
+	$("t_bb01").innerHTML = focuspos;
+	
+	if ((preZoomPos != zoompos) || (preFocusPos != focuspos))
+	{
+		setTimeout("getCamPos()", 200);
+	}
+	
+	preZoomPos = zoompos;
+	preFocusPos = focuspos;
+}
+
+function getCamPos()
+{
+	sendBTNSetting(true, "list", "CAMPOS", 8673, "/cgi-bin/param.cgi?action=list&group=CAMPOS");
+}
+
+var rtn;
+function initLiveView()
+{
+	if (userGroup != 2)	{
+		$("mn_ptz").addEvent("click",function(){clkTabMenu(this);});
+		$("mn_aux").addEvent("click",function(){clkTabMenu(this);});
+		$("mn_3dptz").addEvent("click",function(){btnLiveCtrl(this, 6);});
+		$("mn_snap").addEvent("click",function(){btnLiveCtrl(this, 1);});
+		$("mn_rec").addEvent("click",function(){btnLiveCtrl(this, 2);});
+		$("mn_talk").addEvent("click",function(){btnLiveCtrl(this, 4);});
+		$("mn_voice").addEvent("click",function(){btnLiveCtrl(this, 3);});
+		$("mn_close").addEvent("click",function(){clkTabMenu(this);});
+	}
+	$("mn_full").addEvent("click",function(){btnLiveCtrl(this, 5);});
+
+	$("yt5").addEvent("click",function(){gotoPTZ(38);});
+
+	$("yt1").addEvent("mousedown",function(){gotoPTZ(6);});
+	$("yt1").addEvent("mouseup",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos();", 800);});
+	$("yt1").addEvent("mouseout",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos();", 800);});
+	$("yt2").addEvent("mousedown",function(){gotoPTZ(4);});
+	$("yt2").addEvent("mouseup",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos();", 800);});
+	$("yt2").addEvent("mouseout",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos();", 800);});
+	$("yt3").addEvent("mousedown",function(){gotoPTZ(8);});
+	$("yt3").addEvent("mouseup",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos();", 800);});
+	$("yt3").addEvent("mouseout",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos();", 800);});
+	$("yt4").addEvent("mousedown",function(){gotoPTZ(2);});
+	$("yt4").addEvent("mouseup",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos();", 800);});
+	$("yt4").addEvent("mouseout",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos();", 800);});
+	$("yt6").addEvent("mousedown",function(){gotoPTZ(3);});
+	$("yt6").addEvent("mouseup",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos();", 800);});
+	$("yt6").addEvent("mouseout",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos();", 800);});
+	$("yt7").addEvent("mousedown",function(){gotoPTZ(7);});
+	$("yt7").addEvent("mouseup",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos();", 800);});
+	$("yt7").addEvent("mouseout",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos();", 800);});
+	$("yt8").addEvent("mousedown",function(){gotoPTZ(5);});
+	$("yt8").addEvent("mouseup",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos();", 800);});
+	$("yt8").addEvent("mouseout",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos();", 800);});
+	$("yt9").addEvent("mousedown",function(){gotoPTZ(9);});
+	$("yt9").addEvent("mouseup",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos();", 800);});
+	$("yt9").addEvent("mouseout",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos();", 800);});
+	
+	
+	$("zm1").addEvent("mousedown",function(){gotoPTZ(13);});
+	$("zm1").addEvent("mouseup",function(){rtn=gotoPTZ(0); setTimeout("getCamPos()", 500);});
+	$("zm1").addEvent("mouseout",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos()", 500);});
+	$("zm3").addEvent("mousedown",function(){gotoPTZ(14);});
+	$("zm3").addEvent("mouseup",function(){rtn=gotoPTZ(0); setTimeout("getCamPos()", 500);});
+	$("zm3").addEvent("mouseout",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos()", 500);});
+	
+	$("fs1").addEvent("mousedown",function(){gotoPTZ(15);});
+	$("fs1").addEvent("mouseup",function(){rtn=gotoPTZ(0); setTimeout("getCamPos()", 500);});
+	$("fs1").addEvent("mouseout",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos()", 500);});
+	$("fs3").addEvent("mousedown",function(){gotoPTZ(16);});
+	$("fs3").addEvent("mouseup",function(){rtn=gotoPTZ(0); setTimeout("getCamPos()", 500);});
+	$("fs3").addEvent("mouseout",function(){rtn=gotoPTZ(0); if (rtn!=false) setTimeout("getCamPos()", 500);});
+
+	$("ir1").addEvent("mousedown",function(){gotoPTZ(17);});
+	$("ir1").addEvent("mouseup",function(){gotoPTZ(0);});
+	$("ir1").addEvent("mouseout",function(){gotoPTZ(0);});
+	$("ir3").addEvent("mousedown",function(){gotoPTZ(18);});
+	$("ir3").addEvent("mouseup",function(){gotoPTZ(0);});
+	$("ir3").addEvent("mouseout",function(){gotoPTZ(0);});
+
+
+	$("pst_go").addEvent("click",function(){gotoPreset($('selPreset').value); onchangePresetList($('selPreset').value); setTimeout("getCamPos()", 6000);});	//b_GoPreset
+	$("pst_set").addEvent("click",function(){getCamPos(); setTimeout("setPreset($('selPreset').value)", 300); setTimeout("setExtPreset($('selPreset').value)", 500);});	//b_SetPreset
+	$("pst_del").addEvent("click",function(){delPreset($('selPreset').value); onchangePresetList($('selPreset').value);});	//b_DelPreset
+
+	$("grp_go").addEvent("click",function(){startGroup();});			//b_RunGroup
+	$("grp_stop").addEvent("click",function(){stopGroup();});			//b_StopGroup
+	$("grp_list").addEvent("click",function(){setGroupList($('selGroup').value);});	//b_OpenPresetList
+	$("grp_save").addEvent("click",function(){saveGroup();});			//b_SaveGroup
+
+	$("grp_additem").addEvent("click",function(){dispPatrolPresetDlg(0);});		//b_AddPresetList
+	$("grp_delitem").addEvent("click",function(){DeletePresetList();});			//b_DelPresetList
+	$("grp_edititem").addEvent("click",function(){dispPatrolPresetDlg(1);});	//b_EditPresetList
+	$("b_Apply").addEvent("click",function(){onPresetListDlgOk();});
+
+	$("b_RunTrack").addEvent("click",function(){gotoPTZ(29,0);});
+	$("b_RecTrack").addEvent("click",function(){gotoPTZ(30,0);});
+	$("b_StopTrack").addEvent("click",function(){gotoPTZ(31,0);});
+
+	$("b_LLimit").addEvent("click",function(){gotoPTZ(26,0);});
+	$("b_RLimit").addEvent("click",function(){gotoPTZ(27,0);});
+	$("b_AutoScan").addEvent("click",function(){gotoPTZ(28,0);});	//A-B scan
+
+	initSelects();
+}
+
+var cnt=0;
+function changePresetListHeight()
+{
+	if ($("grplist").getStyle("display") == "none")
+		$("grplist").setStyle("height", 3+"px");
+	else
+	{
+		var divHeight = (18 * ($("CruiseTable").rows.length+1)) + 10;
+		if (divHeight > 137)	divHeight=137;	//
+		if ($("editPatrolPreset").getStyle("display") != "none")	{divHeight += 25;}
+
+		$("grplist").setStyle("height", divHeight+"px");
+	}
+}
+
+function setExtPreset(idx)
+{
+	btnSubmitExtPreset(idx);
+}
+
+function setGroupList(idx){
+	if ($("grplist").getStyle("display") == "none") {
+		getPatrol($("selGroup").value);
+		$("grp_list").className = "btnset grp_list2";
+		setDisplay("grplist", 1);
+	} else {
+		$("grp_list").className = "btnset grp_list";
+		setDisplay("grplist", 0);
+	}
+	changePresetListHeight();
+}
+function clkTabMenu(obj){
+	switch (obj.id)
+	{
+		case "mn_close":
+			$("mn_ptz").className = "tabbtn btnPtz";
+			$("mn_aux").className = "tabbtn btnAux";
+
+			RIGHT_SIDE	= 0;
+			$("mb_adjust").style.display="none";
+
+			nCurTabNum = 0;
+			if (tmrAlarmStatus)	clearTimeout(tmrAlarmStatus);
+
+			break;
+
+		case "mn_ptz":
+			$("mn_ptz").className  = "tabbtn btnPtz1";
+			$("mn_aux").className = "tabbtn btnAux";
+			
+			setDisplay("bg_main", 1);
+			setDisplay("bg_aux", 0);
+
+			RIGHT_SIDE	= 173;
+
+			$("mb_adjust").style.display="";
+			nCurTabNum = 1;
+			if (tmrAlarmStatus)	clearTimeout(tmrAlarmStatus);
+
+			break;
+			
+		case "mn_aux":
+			$("mn_ptz").className = "tabbtn btnPtz";
+			$("mn_aux").className = "tabbtn btnAux1";
+
+			setDisplay("bg_main", 0);
+			setDisplay("bg_aux", 1);
+			
+			RIGHT_SIDE	= 173;
+
+			$("mb_adjust").style.display="";
+			nCurTabNum = 2;
+			getAlarmStatus();			
+			
+			break;
+	}
+	manualResize();
+
+}
+
+function initAlarmField(){
+	if(m_bInitAlarm){return;}
+
+	if(SZABILITY==null){getAbility();}
+
+	switch (parseInt(SZABILITY["ABILITY.alarmInCount"]))
+	{
+		case 4:		$("alarmin").innerHTML="<a id='ain0' class='ain4'>1</a><a id='ain1' class='ain4'>2</a><a id='ain2' class='ain4'>3</a><a id='ain3' class='ain4'>4</a>"; break;
+		default:
+		case 2:		$("alarmin").innerHTML="<a id='ain0' class='ain2'>1</a><a id='ain1' class='ain2'>2</a>"; break;
+		case 1:		$("alarmin").innerHTML="<a id='ain0' class='ain1'>"+SZ_OFF+"</a>";	break;
+	}
+
+	switch (parseInt(SZABILITY["ABILITY.alarmOutCount"]))
+	{
+		default:
+		case 2:		$("alarmout").innerHTML="<a id='aout0' class='aout2' onClick='onChangeAlarmOut(1);'>A</a><a id='aout1' class='aout2' style='float:right;' onClick='onChangeAlarmOut(2);'>B</a>";	break;
+		case 1:		$("alarmout").innerHTML="<a id='aout0' class='aout1' onClick='onChangeAlarmOut(1);'>"+SZ_ON+"</a>";	break;
+	}
+
+	m_bInitAlarm = true;
+}
+
+function initFlash(){initOcx(); return; if(m_bInitFlash){return;}
+	var hostip=getDocURL(), hostport=getCookies("nRtmpPort"), nDevType=parseInt(getCookies("nDevType")), nStreamtype=0, width=nFlashWidth, height=nFlashHeight, streamCount=m_nChannel,nlan = parseInt(getCookies("nLANGUAGE"));
+	if(streamCount>16){streamCount=36;}else if(streamCount>9){streamCount=16;}else if(streamCount>4){streamCount=9;}else if(streamCount>1){streamCount=4;}else{streamCount=1;}
+	var flashvars={ip:hostip, rtmpport:hostport, devtype:nDevType, streamtype:nStreamtype, stagewidth:width, stageheight:height , chsnum:streamCount,language:nlan};
+	var params={allowFullScreen:"true", quality:'high', bgcolor:"#000000", align:"left", id:'videoid'};
+	swfobject.embedSWF("RPlayer.swf","flashcontent",width,height,"10.0.0","expressInstall.swf",flashvars,params); m_bInitFlash=true;
+}
+function initOcx(){if(m_bInitFlash){return;}
+	var width=nFlashWidth, height=nFlashHeight;//-30;
+	$("flashcontent").innerHTML="<object name='netVideo' ID='netVideo' style='width:"+width+"px;height:"+height+"px;' CLASSID='clsid:F3B82511-9B5B-40A5-B046-492DFDFB3C1F' codebase='/GSFCU.CAB#Version=1,0,0,0'></object>";m_bInitFlash=true;
+	bLogin["netVideo"]=0;
+	setTimeout("loginNVS('netVideo');", 200);
+	try{$("netVideo").SetLocalRecordSwitchMode(0, 2048);}catch(e){}
+}
+function uninitOcx(){$("flashcontent").innerHTML="";m_bInitFlash=false;}
+function AsCallCurChannelNO(nChan){m_iCurChannel=nChan; if(m_iCurChannel>=0){getPatrol($("selGroup").value);}}
+function AsCall3DCtrl(nChan,x, y, a){m_iCurChannel=nChan;set3DCtrl(x,y,a);}
+
+function setFontColor(iNum){//initTreeTable()
+	var m_nChanCount = getCookies("nChnCount");
+	for(var j=0;j<m_nChanCount;j++){
+		if((j+1)==iNum){$("Selected"+(j+1)+"color").style.color="#FF0000";}else{$("Selected"+(j+1)+"color").style.color="#000000";}
+	}
+}
+function initSelects(){
+	var oSelect = $("selPreset"); oSelect.length=0;
+	for (var i=1; i<256; i++){oSelect.options[oSelect.length]=new Option(i,i);}
+
+	oSelect = $("selGroup"); oSelect.length=0;
+	for (var i=1; i<9; i++){oSelect.options[oSelect.length]=new Option(i,i);}
+
+	oSelect = $("selPattern"); oSelect.length=0;
+	for (var i=1; i<5; i++){oSelect.options[oSelect.length]=new Option(i,i);}
+
+	oSelect = $("selectPreset"); oSelect.length=0;
+	for (var i = 1; i < 256; i++){oSelect.options[oSelect.length]=new Option(i,i);}
+
+	oSelect = $("selectDwell"); oSelect.length=0;
+	for (var i=1; i<=600; i++) { oSelect.options[oSelect.length] = new Option(i+"s", i); }
+}
+
+function dispPatrolPresetDlg(mode){
+	m_iOperateMode = mode;
+	if (mode==0) {	//add
+		if ($("CruiseTable").rows.length > 16)	{alert(SZCRUISEERROR);return;}
+
+		$("selectPreset").value = 1;
+		$("selectDwell").value = 10;
+	} else if (mode==1) {	//edit
+		$("selectPreset").value = parseInt($("tdA"+m_iSelectPatrolPreset).innerHTML.split("#")[1], 10);
+		$("selectDwell").value = parseInt($("tdB"+m_iSelectPatrolPreset).innerHTML.split("s")[0], 10);
+	}
+
+	$("editPatrolPreset").style.display = "";
+	$("controlPatrolPreset").style.display = "none";
+	changePresetListHeight();
+}
+
+function onPresetListDlgOk() {
+	if (m_iOperateMode==0) {	//add
+		nCruise = $("CruiseTable").rows.length;
+		if(nCruise > 16){alert(SZCRUISEERROR);return;}
+		InsertPresetList(nCruise, $("selectPreset").value, $("selectDwell").value, 0);
+		$("PatrolPresetList").scrollTop = $("PatrolPresetList").scrollHeight;
+	}
+	else if (m_iOperateMode==1) {	//edit
+		$("tdA"+m_iSelectPatrolPreset).innerHTML = '#'+$("selectPreset").value;
+		$("tdB"+m_iSelectPatrolPreset).innerHTML = $("selectDwell").value+'s';
+	}
+
+
+	$("editPatrolPreset").style.display='none';
+	$("controlPatrolPreset").style.display = "";
+
+	changePresetListHeight();
+}
+
+function InsertPresetList(iNo, iPresetID, iPatrolTime, iPatrolSpeed){
+	var szObj=$("CruiseTable");
+	var ObjTr, ObjTd;
+
+	ObjTr = szObj.insertRow(szObj.rows.length);
+	$(ObjTr).addEvent("click",function(){ SelectPresetList(this.rowIndex); });
+
+	if (m_iSelectPatrolPreset > 0)
+	{
+		$(szObj.rows[m_iSelectPatrolPreset]).className="CruiseTableTr";
+	}
+	m_iSelectPatrolPreset = szObj.rows.length - 1;
+
+	ObjTr.style.height = '17px'; ObjTr.style.cursor = "pointer"; ObjTr.align = "center";
+	ObjTr.className = "CruiseTableTr";
+
+
+	for(var j = 0;j < szObj.rows[0].cells.length;j++){
+		ObjTd = ObjTr.insertCell(j);
+		switch(j){
+		case 0: ObjTd.innerHTML = '#'+iPresetID; ObjTd.id = "tdA"+ iNo; break;
+		case 1: ObjTd.innerHTML = iPatrolTime+'s'; ObjTd.id = "tdB"+ iNo; break;
+		default: break;
+		}
+	}
+	changePresetListHeight();
+}
+function SelectPresetList(iNo){
+	var oTable = $("CruiseTable");
+	if(iNo <= oTable.rows.length && iNo > 0){
+		$(oTable.rows[m_iSelectPatrolPreset]).className = "CruiseTableTr";
+		$(oTable.rows[iNo]).className = "CruiseTableTrSel";
+		m_iSelectPatrolPreset = iNo;
+
+		if ($("editPatrolPreset").getStyle("display") != "none")
+		{
+			$("selectPreset").value = parseInt($("tdA"+m_iSelectPatrolPreset).innerHTML.split("#")[1], 10);
+			$("selectDwell").value = parseInt($("tdB"+m_iSelectPatrolPreset).innerHTML.split("s")[0], 10);
+		}
+	}
+}
+function DeletePresetList(iNo){
+	var oTable = $("CruiseTable");
+	if (iNo==null)	iNo = m_iSelectPatrolPreset;
+
+	if(oTable.rows.length <= 1){return;}
+	oTable.deleteRow(iNo);
+
+	if(m_iSelectPatrolPreset > oTable.rows.length - 1)	m_iSelectPatrolPreset = oTable.rows.length - 1;
+
+
+	changePresetListHeight();
+	m_iSelectPatrolPreset = $("CruiseTable").rows.length - 1;
+}
+
+
+function initPattern(){
+	var szName = tPattern;
+	var innerHTML = "<table border='0' cellspacing='0' cellpadding='0' width='100%' id='tablePattern'>";
+	for(var i = 1; i < 3; i++){
+		innerHTML+="<tr height='1' style='background-color:#CCC;'><td></td></tr><tr><td id='Pattern"+(i)+"' height='30'><table cellspacing='0' cellpadding='0' width='100%' height='100%'><tr onClick='selectPattern(this)' style='cursor:pointer;' onMouseOver=\"javascript:if(this!=m_oSelectPattern){this.style.backgroundColor='#FBFBC2';}\" onMouseOut=\"javascript:if(this!=m_oSelectPattern){this.style.backgroundColor=''}\"><td align='center' valign='middle' width='40%'><label id='Pattern'>"+ szName +"</label>"+" "+i+"</td><td width='15%' align='center' valign='middle'><img id='startPattern' src='../images/ptz/PatternStart.png' onClick='startPattern("+i+")'  style='display:none;'/></td><td width='15%' align='center' valign='middle'><img id='stopPattern' src='../images/ptz/PatternStop.png' onClick='stopPattern("+i+")' style='display:none;'/></td><td width='15%' align='center' valign='middle'><img id='startRecPattern' src='../images/ptz/setPreset_normal.png' onClick='startRecPattern("+i+")' style='display:none;'/></td><td width='15%' align='center' valign='middle'><img src='../images/ptz/PatternSave.png' id='stopRecPattern' onClick='stopRecPattern("+i+")' style='display:none;'/></td></tr></table></td></tr>";
+	}
+	innerHTML+="</table>";
+	$("scan_tab").innerHTML = innerHTML;
+}
+function selectPattern(obj){
+	if(obj == m_oSelectPattern){return;}
+	if(null != m_oSelectPattern){
+		m_oSelectPattern.style.backgroundColor = '';
+		m_oSelectPattern.cells[0].style.color = '';
+		m_oSelectPattern.cells[1].childNodes[0].style.display = 'none';
+		m_oSelectPattern.cells[2].childNodes[0].style.display = 'none';
+		m_oSelectPattern.cells[3].childNodes[0].style.display = 'none';
+		m_oSelectPattern.cells[4].childNodes[0].style.display = 'none';
+	}
+	obj.style.backgroundColor = '#762727';
+	obj.cells[0].style.color = '#FFFFFF';
+	obj.cells[1].childNodes[0].style.display = '';
+	obj.cells[2].childNodes[0].style.display = '';
+	obj.cells[3].childNodes[0].style.display = '';
+	obj.cells[4].childNodes[0].style.display = '';
+	m_oSelectPattern = obj;
+}
+
+function startPattern(a){}
+function stopPattern(a){}
+function startRecPattern(a){}
+function stopRecPattern(a){}
+
+function btnLiveCtrl(CTRL_OBJ, CTRL_CMD){
+	switch(CTRL_CMD){
+		case 1:	//Snapshot
+			funSnap(CTRL_OBJ);
+		break;
+		case 2:	//Recording
+			funLocalRec(CTRL_OBJ);
+		break;
+		case 3:	//monitor
+			funListen(CTRL_OBJ);
+		break;
+		case 4:	//Talkback
+			funCall(CTRL_OBJ);
+		break;
+		case 5:	//full screen
+			funFull(CTRL_OBJ);
+		break;
+		case 6:	//3D
+			if (PowerPtzSupp==1)	fun3DPTZ(CTRL_OBJ);
+		break;
+		case 7:	//
+			funFluency(CTRL_OBJ);
+		break;
+		case 8:	//Select Stream
+			changeStream(CTRL_OBJ);
+		break;
+		default://other
+
+		break;
+	}
+}
+
+function funSnap(CTRL_OBJ){
+	$("netVideo").CapturePicture(0, 0, "");
+}
+
+var bLocalRec = 0;
+function funLocalRec(CTRL_OBJ){
+	if(!bLocalRec)
+	{
+		$("netVideo").StartLocalRecord("");
+		CTRL_OBJ.className = "tabbtn btnLocalRec1";
+		bLocalRec	= 1;
+	}
+	else
+	{
+		$("netVideo").StopLocalRecord();
+		CTRL_OBJ.className = "tabbtn btnLocalRec";
+		bLocalRec	= 0;
+	}
+}
+
+var bCALL = 0;
+function funCall(CTRL_OBJ)	{
+	if(!bCALL){
+		$("netVideo").EnableDualTalk(1);
+		CTRL_OBJ.className = "tabbtn btnTalk1";
+		bCALL	= 1;
+	}else{
+		$("netVideo").EnableDualTalk(0);
+		CTRL_OBJ.className = "tabbtn btnTalk";
+		bCALL	= 0;
+	}
+	//initState(1);
+}
+var bLISTEN = new Array(0,0,0,0,0,0,0,0)
+function funListen(CTRL_OBJ){
+
+	if(!bLISTEN[0]){
+		var startbool = $("netVideo").EnableSound(0, 1);
+		if(startbool || (1==1)){
+			CTRL_OBJ.className	= "tabbtn btnVoice1";
+			bLISTEN[0] 	= 1;
+		}
+	}else{
+		var startbool = $("netVideo").EnableSound(0, 0);
+		if(startbool || (1==1)){
+			CTRL_OBJ.className	= "tabbtn btnVoice";
+			bLISTEN[0]	= 0;
+		}
+	}
+}
+function funFull(CTRL_OBJ){
+	$("netVideo").EnableFullScreen(1);
+}
+var b3DPTZZ = 0;
+function fun3DPTZ(CTRL_OBJ){
+	if(!b3DPTZZ){
+		$("netVideo").Enable3DDomeCtrl(1);
+		CTRL_OBJ.className = "tabbtn btn3dPtz1";
+		b3DPTZZ = 1;
+	}else{
+		$("netVideo").Enable3DDomeCtrl(0);
+		CTRL_OBJ.className = "tabbtn btn3dPtz";
+		b3DPTZZ = 0;
+	}
+}
+function funFluency(nMode)
+{
+	$("netVideo").SetPlayMode(nMode);
+}
+function getAlarmStatus()
+{
+	var szURL="/cgi-bin/devInfo.cgi?action=list&group=ALARMSTATUS";
+	var action="list", group="ALARMSTATUS", nCMD=11000;
+	sendBTNSetting(true, action, group, nCMD, szURL);
+
+	if (tmrAlarmStatus)	clearTimeout(tmrAlarmStatus);
+	tmrAlarmStatus = setTimeout('getAlarmStatus()', 1000);
+}
+
+function changeStream(nStreamNo)
+{
+	if (nStreamNo < 0 || nStreamNo > 2)	nStreamNo = 0;
+
+	if (bLogin["netVideo"] == 1) {
+		if (bPreview["netVideo"] == 1)
+		{
+			$("netVideo").CloseVideo(0);
+			bPreview["netVideo"] = 0;
+		}
+
+		$("netVideo").OpenVideo(0, nStreamNo);
+		bPreview["netVideo"] = 1;
+	}
+}
+
+function onChangeAlarmOut(nAlarmOut)
+{
+	var curStatus = nAlarmOutStatus ^ nAlarmOut;
+	var szURL="/cgi-bin/control.cgi?action=update&group=ALARMOUT&ALARMOUT.status="+curStatus;
+	var action="update", group="ALARMOUT", nCMD=11001;
+	sendBTNSetting(true, action, group, nCMD, szURL);
+}
+
+function displayAlarmStatus(alarmin, alarmout)
+{
+	if(SZABILITY==null){getAbility();}
+
+	var inNum=parseInt(SZABILITY["ABILITY.alarmInCount"]);
+	var outNum=parseInt(SZABILITY["ABILITY.alarmOutCount"]);
+
+	var i;
+	for (i=0;i<inNum;i++)
+	{
+		if (((alarmin >> i) & 0x01) == 0x01)		{$('ain'+i).className = "ain"+inNum+"1"; if(inNum==1) $('ain'+i).innerHTML = SZ_ON;}
+		else if (((alarmin >> i) & 0x01) == 0x00)	{$('ain'+i).className = "ain"+inNum; if(inNum==1) $('ain'+i).innerHTML = SZ_OFF;}
+	}
+
+	for (i=0;i<outNum;i++)
+	{
+		if (((alarmout >> i) & 0x01) == 0x01)		$('aout'+i).className = "aout"+outNum+"1";
+		else if (((alarmout >> i) & 0x01) == 0x00)	$('aout'+i).className = "aout"+outNum;
+	}
+}
+
+function onClickWiperControl(param)
+{	//param==0:off, 1:on
+	gotoPTZ((param==0)?33:32, (typeMB==0x41)?6:1);
+}
+
+function clkAdvancedSetting()
+{
+	$("chkSpecialSetting").value = 1 - $("chkSpecialSetting").value;
+	$("EXPRESET.SpecialSetting").value = $("chkSpecialSetting").value;
+	updateCheckBox(chkSpecialSetting, $("chkSpecialSetting").value);
+}
+
+function onchangePresetList(idx)
+{
+	sendBTNSetting(true,"list", "PRESET", 863, "/cgi-bin/param.cgi?action=list&group=PRESET&channel=0");
+}
+
+function showListPresetTab(xmlDoc, nCMD){
+	var re,szReturn, i, keyValue={};
+	var szKey, iValid, szName;
+	re = /root./g; szReturn = xmlDoc.selectSingleNode("html").text.replace(re,"");
+	keyValue=textToArray(szReturn);
+	if(keyValue["ERR.no"]=="0")
+	{
+		refreshExPreset(selPreset.value-1);
+	}
+}
+
+function checkMenuCapability()
+{
+	if(SZABILITY==null){getAbility();}
+	var webPage = parseInt(SZABILITY["ABILITY.webPage"]);
+	var iState = webPage & 0x10;
+	
+	if (isNaN(iState) || iState == 0)
+	{
+		$("pst").style.height = "55px";
+		setDisplay("mnuAdvancedPreset", 0);
+	}
+	else
+	{
+		$("pst").style.height = "75px";
+		setDisplay("mnuAdvancedPreset", 1);
+	}
+}
+function showExPresetTab(keyValue){
+//	onchangeSpecialSetting();
+//	onchangeFocusMode();
+//	alert(keyValue);
+	//if (parseInt(keyValue["EXPRESET.SpecialSetting"], 10) == 1)
+	{
+		$("chkSpecialSetting").value = parseInt(keyValue["EXPRESET.SpecialSetting"], 10);
+		$("EXPRESET.SpecialSetting").value = parseInt(keyValue["EXPRESET.SpecialSetting"], 10);
+		updateCheckBox(chkSpecialSetting, $("chkSpecialSetting").value);//parseInt(keyValue["EXPRESET.SpecialSetting"], 10));
+	}
+	
+	var focus_mode = parseInt(keyValue["EXPRESET.FocusMode"], 10);
+	var focus_pos = parseInt(keyValue["EXPRESET.FocusPosition"], 10);
+	var wdr_mode = parseInt(keyValue["EXPRESET.WdrMode"], 10);
+	var defog_mode = parseInt(keyValue["EXPRESET.Defog1"], 10);
+	var hlc_mode = parseInt(keyValue["EXPRESET.Hlc"], 10);
+	var irled_ctrl = parseInt(keyValue["EXPRESET.IrLedCtrl"], 10);
+
+	var i;
+	for (i=0; i<2; i++)
+	{
+		$("focusmode_"+i).className = "btn_chk1";
+		$("wdr_"+i).className = "btn_chk1";
+		$("defog_"+i).className = "btn_chk1";
+		$("hlc_"+i).className = "btn_chk1";
+	}
+
+	$("focusmode_"+focus_mode).className = "btn_chk1_sel";
+//	setDisplay("fieldFocusPos", focus_mode);
+//	$("adv_preset").style.height = (145 + (23 * focus_mode))+ "px";
+	
+	$("focuspos").value = focus_pos;
+	$("wdr_"+wdr_mode).className = "btn_chk1_sel";
+	$("defog_"+defog_mode).className = "btn_chk1_sel";
+	$("hlc_"+hlc_mode).className = "btn_chk1_sel";
+	
+	$("irled_0").className = "btn_chk2";
+	$("irled_1").className = "btn_chk3";
+	$("irled_2").className = "btn_chk3";
+	if (irled_ctrl == 0)
+		$("irled_"+irled_ctrl).className = "btn_chk2_sel";
+	else
+		$("irled_"+irled_ctrl).className = "btn_chk3_sel";
+}
+
+function refreshExPreset(num)
+{
+	sendBTNSetting(true,"list", "EXPRESET", 2865, "/cgi-bin/param.cgi?action=list&group=EXPRESET&EXPRESET.No="+num); 
+}
+
+function updateCheckBox(obj, val)
+{
+	if (val == 0) {
+		obj.className = "chkbox";
+		setDisplay("adv_preset", 0);
+		setDisplay("divsep", 1);
+	} else {
+		obj.className = "chkbox_sel";
+		setDisplay("adv_preset", 1);
+		setDisplay("divsep", 0);
+	}
+}
+
+function updateExtPreset()
+{
+	
+}
+
+function clkFocusMode(val)
+{
+	var i;
+	for (i=0; i<2; i++)	$("focusmode_"+i).className = "btn_chk1";
+	$("focusmode_"+val).className = "btn_chk1_sel";
+	
+	
+//	setDisplay("fieldFocusPos", val);
+//	$("adv_preset").style.height = (145 + (23 * val))+ "px"
+
+	$("EXPRESET.FocusMode").value = val;	
+}
+
+function clkWdrMode(val)
+{
+	var i;
+	for (i=0; i<2; i++)	$("wdr_"+i).className = "btn_chk1";
+	$("wdr_"+val).className = "btn_chk1_sel";
+
+	$("EXPRESET.WdrMode").value = val;
+}
+
+function clkDefogMode(val)
+{
+	var i;
+	for (i=0; i<2; i++)	$("defog_"+i).className = "btn_chk1";
+	$("defog_"+val).className = "btn_chk1_sel";
+
+	$("EXPRESET.Defog1").value = val;
+}
+
+function clkHlcMode(val)
+{
+	var i;
+	for (i=0; i<2; i++)	$("hlc_"+i).className = "btn_chk1";
+	$("hlc_"+val).className = "btn_chk1_sel";
+
+	$("EXPRESET.Hlc").value = val;
+}
+
+function clkIrLedCtrl(val)
+{
+	$("irled_0").className = "btn_chk2";
+	$("irled_1").className = "btn_chk3";
+	$("irled_2").className = "btn_chk3";
+	if (val == 0)
+		$("irled_"+val).className = "btn_chk2_sel";
+	else
+		$("irled_"+val).className = "btn_chk3_sel";
+		
+	$("EXPRESET.IrLedCtrl").value = val;
+}
+
+
+function btnSubmitExtPreset(num){
+	var e, szURL="/cgi-bin/param.cgi?action=update&group=", szArg="", action="update", group="EXPRESET", i, szKey;
+	var nCMD=8631;
+
+	if (num == 0)	return;
+	
+	szArg="&EXPRESET.No="+(num-1);
+	szArg+="&EXPRESET.SpecialSetting="+$("EXPRESET.SpecialSetting").value;
+
+	var focusMode = parseInt($("EXPRESET.FocusMode").value);
+	szArg+="&EXPRESET.FocusMode="+focusMode;
+	$("EXPRESET.FocusPosition").value = $("focuspos").value;
+	var focuspos = parseInt($("EXPRESET.FocusPosition").value);
+	
+	
+	if (focusMode == 1)	{	//manual
+		focuspos = parseInt($("EXPRESET.FocusPosition").value);
+		szArg+="&EXPRESET.FocusPosition="+focuspos;
+	}
+	else {	//auto
+		szArg+="&EXPRESET.FocusPosition=0";
+	}
+	
+	szArg+="&EXPRESET.WdrMode="+parseInt($("EXPRESET.WdrMode").value);
+	szArg+="&EXPRESET.Defog1="+parseInt($("EXPRESET.Defog1").value);
+	szArg+="&EXPRESET.Hlc="+parseInt($("EXPRESET.Hlc").value);
+	szArg+="&EXPRESET.IrLedCtrl="+parseInt($("EXPRESET.IrLedCtrl").value);
+	
+
+	szURL+=group; szURL+=szArg;
+	sendBTNSetting(true,action, group, nCMD, szURL);
+
+}
+
+function onPause(a)
+{
+	var szURL="/cgi-bin/control.cgi?action=update&group=CAMCTRL&CAMCTRL.camFreeze="+a;
+	var action="update", group="CAMCTRL", nCMD=21001;
+	sendBTNSetting(true, action, group, nCMD, szURL);
+}
+

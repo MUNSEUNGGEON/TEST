@@ -1,0 +1,129 @@
+﻿<Window x:Class="Novacos_AIManager.MainWindow"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+xmlns:local="clr-namespace:Novacos_AIManager.View"
+xmlns:controls="clr-namespace:Novacos_AIManager.View.Controls"
+xmlns:wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf"
+        mc:Ignorable="d"
+Title="AI Platform" Height="900" Width="1600"
+WindowStartupLocation="CenterScreen"
+WindowStyle="None" Background="#1A1A1A">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibility"/>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition/>
+            <RowDefinition Height="40"/>
+        </Grid.RowDefinitions>
+
+        <!-- 상단바 -->
+        <controls:TopBar Grid.Row="0"  DataContext="{Binding TopBarVM}"/>
+
+        <!-- 메인 영역 -->
+        <Grid Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="{Binding LeftMenuWidth}"/>
+                <ColumnDefinition/>
+                <!-- 🔥 메인 화면(CurrentPage) -->
+                <ColumnDefinition Width="{Binding RightPanelWidth}"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- 좌측 메뉴 -->
+            <local:AnalysisLeftMenu Grid.Column="0"/>
+
+            <!-- 🔥 중앙 메인 화면 (여기가 계속 바뀜) -->
+            <ContentControl Grid.Column="1"
+                            Content="{Binding CurrentPage}"/>
+
+            <!-- 우측 패널 -->
+            <Border Grid.Column="2" Background="#121314">
+                <StackPanel Margin="10">
+                    <TextBlock Text="AI 학습 관리"
+                               Foreground="White"
+                               FontWeight="Bold"
+                               FontSize="16"
+                               Margin="0 10 0 20"/>
+                    <Image Source="pack://application:,,,/Assets/AnalysisEngine.png"
+                           Width="48" Height="48"
+                           Cursor="Hand"
+                           MouseDown="AnalysisEngineIcon_Click"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- 🔥 로그인 UI (CurrentPage 위에 떠야 함) -->
+        <Grid x:Name="LoginPanel"
+              Grid.Row="1"
+              Grid.Column="1"
+              Panel.ZIndex="9999"
+              Background="#1A1A1A"
+              HorizontalAlignment="Center"
+              VerticalAlignment="Center"
+              Width="450">
+
+            <StackPanel Margin="25">
+                <TextBlock Text="AI 학습관리 모듈"
+                           Foreground="White"
+                           FontSize="28"
+                           FontWeight="Bold"
+                           HorizontalAlignment="Center"
+                           Margin="0 0 0 30"/>
+
+                <TextBlock Text="AI 학습관리 로그인"
+                           Foreground="White"
+                           FontSize="16"
+                           Margin="0 0 0 15"/>
+
+                <!-- ID -->
+                <Grid Margin="0 8">
+                    <TextBox x:Name="txtId"
+                             Background="#222" Foreground="White"
+                             Height="40" Padding="10"
+                             TextChanged="txtId_TextChanged"/>
+                    <TextBlock x:Name="txtIdPlaceholder"
+                               Text="아이디 또는 이메일"
+                               Foreground="#666"
+                               VerticalAlignment="Center"
+                               Margin="15 0"
+                               IsHitTestVisible="False"/>
+                </Grid>
+
+                <!-- PW -->
+                <Grid Margin="0 8">
+                    <PasswordBox x:Name="txtPw"
+                                 Background="#222" Foreground="White"
+                                 Height="40" Padding="10"
+                                 PasswordChanged="txtPw_PasswordChanged"/>
+                    <TextBlock x:Name="txtPwPlaceholder"
+                               Text="비밀번호"
+                               Foreground="#666"
+                               VerticalAlignment="Center"
+                               Margin="15 0"
+                               IsHitTestVisible="False"/>
+                </Grid>
+
+                <!-- 버튼 -->
+                <StackPanel Orientation="Horizontal"
+                            HorizontalAlignment="Center"
+                            Margin="0 25 0 0">
+                    <Button Content="회원가입"
+                            Width="120" Height="40" Margin="5"
+                            Click="OnSignUpClicked"/>
+                    <Button Content="확인"
+                            Width="120" Height="40" Margin="5"
+                            Click="OnLoginClicked"/>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+
+        <!-- 하단바 -->
+        <controls:FooterBar Grid.Row="2"/>
+
+    </Grid>
+</Window>

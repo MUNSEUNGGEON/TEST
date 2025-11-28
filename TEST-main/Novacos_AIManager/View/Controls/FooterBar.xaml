@@ -1,0 +1,32 @@
+﻿<UserControl x:Class="Novacos_AIManager.View.Controls.FooterBar"
+xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+xmlns:vm="clr-namespace:Novacos_AIManager.ViewModel"
+Height="40" Background="#2A2A2A">
+
+
+    <UserControl.DataContext>
+        <vm:FooterBarViewModel/>
+    </UserControl.DataContext>
+
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="300"/>
+        </Grid.ColumnDefinitions>
+
+
+        <!-- 왼쪽 로고 -->
+        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="20,0">
+            <Image Source="/Assets/logo_small.png" Height="20"/>
+        </StackPanel>
+
+
+        <!-- 오른쪽 회사 정보 -->
+        <TextBlock Grid.Column="2" Text="Korea Corporation All Rights Reserved."
+Foreground="#CCCCCC" VerticalAlignment="Center"
+HorizontalAlignment="Right" Margin="0,0,20,0"/>
+    </Grid>
+</UserControl>
