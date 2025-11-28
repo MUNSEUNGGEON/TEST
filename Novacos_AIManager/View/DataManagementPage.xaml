@@ -3,6 +3,40 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              Background="#1A1A1A">
 
+    <UserControl.Resources>
+        <Style TargetType="DatePicker">
+            <Setter Property="Foreground" Value="#FFFFFF"/>
+            <Setter Property="Background" Value="#2A2A2A"/>
+            <Setter Property="BorderBrush" Value="#3F3F3F"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="6 4"/>
+        </Style>
+
+        <Style TargetType="DatePickerTextBox">
+            <Setter Property="Foreground" Value="#FFFFFF"/>
+            <Setter Property="Background" Value="#2A2A2A"/>
+            <Setter Property="BorderBrush" Value="#3F3F3F"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="4 2"/>
+        </Style>
+
+        <Style TargetType="Calendar">
+            <Setter Property="Background" Value="#1E1E1E"/>
+            <Setter Property="Foreground" Value="#FFFFFF"/>
+            <Setter Property="BorderBrush" Value="#3F3F3F"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#3A3A3A"/>
+            <Setter Property="Foreground" Value="#FFFFFF"/>
+            <Setter Property="BorderBrush" Value="#3A3A3A"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="10 6"/>
+            <Setter Property="Cursor" Value="Hand"/>
+        </Style>
+    </UserControl.Resources>
+
     <Grid Margin="40">
 
         <Grid.RowDefinitions>
@@ -21,18 +55,20 @@
 
         <!-- 날짜 선택 -->
         <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0 0 0 30">
-            <StackPanel Orientation="Horizontal" Margin="0 0 40 0">
+            <StackPanel Orientation="Horizontal" Margin="0 0 40 0" VerticalAlignment="Center">
                 <TextBlock Text="Start"
                            Foreground="#FFFFFF"
-                           Margin="0 0 10 0"/>
+                           Margin="0 0 12 0"
+                           VerticalAlignment="Center"/>
                 <DatePicker SelectedDate="{Binding StartDate}"
                             Width="200"/>
             </StackPanel>
 
-            <StackPanel Orientation="Horizontal">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
                 <TextBlock Text="End"
                            Foreground="#FFFFFF"
-                           Margin="0 0 10 0"/>
+                           Margin="0 0 12 0"
+                           VerticalAlignment="Center"/>
                 <DatePicker SelectedDate="{Binding EndDate}"
                             Width="200"/>
             </StackPanel>
@@ -55,6 +91,8 @@
                       BorderThickness="0"
                       GridLinesVisibility="None"
                       FontSize="14"
+                      RowHeight="30"
+                      ColumnHeaderHeight="34"
                       Loaded="DG_Loaded">
 
                 <!-- 헤더 스타일 (DatabaseQueryPage와 동일) -->
@@ -65,7 +103,7 @@
                         <Setter Property="FontWeight" Value="Bold"/>
                         <Setter Property="BorderBrush" Value="#555555"/>
                         <Setter Property="BorderThickness" Value="0,0,0,1"/>
-                        <Setter Property="Padding" Value="8"/>
+                        <Setter Property="Padding" Value="6"/>
                         <Setter Property="ContentTemplate">
                             <Setter.Value>
                                 <!-- AccessText를 사용하지 않도록 TextBlock으로 헤더를 렌더링 -->
@@ -83,8 +121,19 @@
                         <Setter Property="BorderBrush" Value="#444444"/>
                         <Setter Property="BorderThickness" Value="0,0,0,1"/>
                         <Setter Property="Foreground" Value="#FFFFFF"/>
+                        <Setter Property="Height" Value="30"/>
+                        <Setter Property="FontSize" Value="13"/>
                     </Style>
                 </DataGrid.RowStyle>
+
+                <!-- Cell 스타일 -->
+                <DataGrid.CellStyle>
+                    <Style TargetType="DataGridCell">
+                        <Setter Property="Padding" Value="6 2"/>
+                        <Setter Property="VerticalAlignment" Value="Center"/>
+                        <Setter Property="FontSize" Value="13"/>
+                    </Style>
+                </DataGrid.CellStyle>
 
             </DataGrid>
         </Border>
@@ -96,10 +145,6 @@
                 Height="36"
                 HorizontalAlignment="Right"
                 Margin="0 20 0 0"
-                Background="#3A3A3A"
-                Foreground="#FFFFFF"
-                BorderThickness="0"
-                Cursor="Hand"
                 Command="{Binding SearchCommand}"/>
     </Grid>
 </UserControl>
