@@ -1,9 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Data;
-using System.Windows.Controls.Primitives;
+using System.Linq;
+using System.Windows;
+using System.Windows.Input;
 using DataBaseManager;
+using Novacos_AIManager.Model;
 using Novacos_AIManager.Utils;
 
 namespace Novacos_AIManager.ViewModel
@@ -25,6 +29,31 @@ namespace Novacos_AIManager.ViewModel
             }
         }
 
+        private ObservableCollection<UserInfoModel>? _userItems;
+        public ObservableCollection<UserInfoModel>? UserItems
+        {
+            get => _userItems;
+            private set
+            {
+                _userItems = value;
+                OnPropertyChanged(nameof(UserItems));
+            }
+        }
+
+        private UserInfoModel? _selectedUser;
+        public UserInfoModel? SelectedUser
+        {
+            get => _selectedUser;
+            set
+            {
+                _selectedUser = value;
+                OnPropertyChanged(nameof(SelectedUser));
+                CommandManager.InvalidateRequerySuggested();
+            }
+        }
+
+        public ObservableCollection<string> UserTypeOptions { get; } = new();
+
         private string _statusMessage = string.Empty;
         public string StatusMessage
         {
@@ -39,8 +68,10 @@ namespace Novacos_AIManager.ViewModel
         public string Title { get; }
 
         public bool IsUserInfoPage => Title == "사용자 정보";
+        public bool IsNotUserInfoPage => !IsUserInfoPage;
 
         public RelayCommand RefreshCommand { get; }
+        public RelayCommand SaveUserCommand { get; }
 
         public bool TryAddUser(
             string userId,
@@ -108,11 +139,23 @@ namespace Novacos_AIManager.ViewModel
             _columnMapping = columnMapping;
 
             RefreshCommand = new RelayCommand(_ => LoadData());
+            SaveUserCommand = new RelayCommand(_ => SaveEditingUser(), _ => CanSaveUser());
 
             LoadData();
         }
 
         private void LoadData()
+        {
+            if (IsUserInfoPage)
+            {
+                LoadUserData();
+                return;
+            }
+
+            LoadGeneralData();
+        }
+
+        private void LoadGeneralData()
         {
             if (!DatabaseManager.Instance.IsConnected)
             {
@@ -144,11 +187,176 @@ namespace Novacos_AIManager.ViewModel
             StatusMessage = errorMessage ?? "알 수 없는 오류가 발생했습니다.";
         }
 
+        private void LoadUserData()
+        {
+            if (!DatabaseManager.Instance.IsConnected)
+            {
+                UserItems = null;
+                StatusMessage = "데이터베이스 연결에 실패했습니다.";
+                return;
+            }
+
+            if (DatabaseManager.Instance.TryGetDataTable(_query, out var table, out var errorMessage))
+            {
+                if (table == null || table.Rows.Count == 0)
+                {
+                    UserItems = null;
+                    StatusMessage = _emptyMessage ?? "조회된 데이터가 없습니다.";
+                    return;
+                }
+
+                var items = new ObservableCollection<UserInfoModel>();
+
+                foreach (DataRow row in table.Rows)
+                {
+                    items.Add(new UserInfoModel
+                    {
+                        Id = GetInt(row, "번호"),
+                        UserId = GetString(row, "아이디"),
+                        UserName = GetString(row, "이름"),
+                        Email = GetString(row, "이메일"),
+                        UserType = GetString(row, "권한"),
+                        Department = GetString(row, "소속"),
+                        Position = GetString(row, "직책"),
+                        CreatedAt = GetString(row, "등록일"),
+                    });
+                }
+
+                UserItems = items;
+                SelectedUser = null;
+                UpdateUserTypeOptions(items);
+                StatusMessage = $"총 {items.Count}건의 데이터를 조회했습니다.";
+                return;
+            }
+
+            UserItems = null;
+            StatusMessage = errorMessage ?? "알 수 없는 오류가 발생했습니다.";
+        }
+
         public event PropertyChangedEventHandler? PropertyChanged;
 
         private void OnPropertyChanged(string propertyName)
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
+        public void BeginEdit(UserInfoModel user)
+        {
+            if (UserItems != null)
+            {
+                foreach (var item in UserItems)
+                {
+                    if (item != user && item.IsEditing)
+                    {
+                        item.CancelEdit();
+                    }
+                }
+            }
+
+            SelectedUser = user;
+            user.BeginEdit();
+            CommandManager.InvalidateRequerySuggested();
+        }
+
+        public void CancelEdit(UserInfoModel user)
+        {
+            user.CancelEdit();
+            CommandManager.InvalidateRequerySuggested();
+        }
+
+        private void SaveEditingUser()
+        {
+            if (SelectedUser == null)
+            {
+                StatusMessage = "편집할 사용자를 선택하세요.";
+                MessageBox.Show(StatusMessage, "선택 필요", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
+
+            if (TryUpdateUser(SelectedUser, out var errorMessage))
+            {
+                StatusMessage = "사용자 정보가 수정되었습니다.";
+                var selectedId = SelectedUser.Id;
+                LoadUserData();
+                SelectedUser = UserItems?.FirstOrDefault(u => u.Id == selectedId);
+                MessageBox.Show(StatusMessage, "수정 완료", MessageBoxButton.OK, MessageBoxImage.Information);
+                return;
+            }
+
+            StatusMessage = errorMessage ?? "사용자 정보 수정에 실패했습니다.";
+            MessageBox.Show(StatusMessage, "오류", MessageBoxButton.OK, MessageBoxImage.Error);
+        }
+
+        private bool TryUpdateUser(UserInfoModel user, out string? errorMessage)
+        {
+            if (!IsUserInfoPage)
+            {
+                errorMessage = "사용자 정보 페이지에서만 수정할 수 있습니다.";
+                return false;
+            }
+
+            if (string.IsNullOrWhiteSpace(user.EditDepartment))
+            {
+                errorMessage = "소속은 필수 입력 값입니다.";
+                return false;
+            }
+
+            if (string.IsNullOrWhiteSpace(user.EditPosition))
+            {
+                errorMessage = "직책은 필수 입력 값입니다.";
+                return false;
+            }
+
+            if (string.IsNullOrWhiteSpace(user.EditUserType))
+            {
+                errorMessage = "권한은 필수 입력 값입니다.";
+                return false;
+            }
+
+            var success = DatabaseManager.Instance.TryUpdateUser(
+                user.Id,
+                user.EditUserType,
+                user.EditDepartment,
+                user.EditPosition,
+                out errorMessage);
+
+            if (success)
+            {
+                user.CommitEdit();
+                return true;
+            }
+
+            user.CancelEdit();
+            return false;
+        }
+
+        private bool CanSaveUser()
+        {
+            return IsUserInfoPage && SelectedUser?.IsEditing == true;
+        }
+
+        private static string? GetString(DataRow row, string columnName)
+        {
+            return row.Table.Columns.Contains(columnName) ? Convert.ToString(row[columnName]) : null;
+        }
+
+        private static int GetInt(DataRow row, string columnName)
+        {
+            var value = GetString(row, columnName);
+            return int.TryParse(value, out var result) ? result : 0;
+        }
+
+        private void UpdateUserTypeOptions(IEnumerable<UserInfoModel> users)
+        {
+            UserTypeOptions.Clear();
+
+            foreach (var type in users)
+            {
+                if (!string.IsNullOrWhiteSpace(type.UserType) && !UserTypeOptions.Contains(type.UserType))
+                {
+                    UserTypeOptions.Add(type.UserType);
+                }
+            }
         }
 
         private static DataTable FilterColumns(DataTable source, IReadOnlyList<QueryColumn> columnMapping)

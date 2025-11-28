@@ -247,6 +247,31 @@ namespace DataBaseManager
                 },
                 out errorMessage);
         }
+
+        public bool TryUpdateUser(
+            int id,
+            string? userType,
+            string? department,
+            string? position,
+            out string? errorMessage)
+        {
+            const string query =
+                "UPDATE tbl_user_list SET " +
+                "TUL_USER_TYPE = @userType, " +
+                "TUL_USER_DEPT = @department, " +
+                "TUL_USER_POSITION = @position " +
+                "WHERE tul_id = @id";
+
+            return TryExecuteNonQuery(query,
+                new Dictionary<string, object?>
+                {
+                    {"@id", id },
+                    {"@userType", userType },
+                    {"@department", department },
+                    {"@position", position },
+                },
+                out errorMessage);
+        }
         #endregion
 
         public void Disconnect()
