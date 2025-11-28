@@ -1,8 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Data;
+using System;
+using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Input;
+using Novacos_AIManager.Model;
 using Novacos_AIManager.ViewModel;
 
 namespace Novacos_AIManager.View
@@ -62,15 +63,16 @@ namespace Novacos_AIManager.View
                 return;
             }
 
-            if (ResultsGrid.SelectedItem is not DataRowView selectedRow)
+            if (!ViewModel.IsUserInfoPage)
             {
-                MessageBox.Show("삭제할 사용자를 선택하세요.", "선택 필요", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
-            if (!int.TryParse(Convert.ToString(selectedRow.Row["Id"]), out var userId))
+            var selectedUser = ViewModel.SelectedUser;
+
+            if (selectedUser == null)
             {
-                MessageBox.Show("선택한 사용자 정보를 읽을 수 없습니다.", "오류", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("삭제할 사용자를 선택하세요.", "선택 필요", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
@@ -81,7 +83,7 @@ namespace Novacos_AIManager.View
                 return;
             }
 
-            if (ViewModel.TryDeleteUser(userId, out var errorMessage))
+            if (ViewModel.TryDeleteUser(selectedUser.Id, out var errorMessage))
             {
                 MessageBox.Show("사용자가 삭제되었습니다.", "삭제 완료", MessageBoxButton.OK, MessageBoxImage.Information);
                 return;
@@ -89,7 +91,33 @@ namespace Novacos_AIManager.View
 
             MessageBox.Show(errorMessage ?? "사용자 삭제에 실패했습니다.", "오류", MessageBoxButton.OK, MessageBoxImage.Error);
         }
+
+        private void OnUserGridDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            if (ViewModel?.SelectedUser == null)
+            {
+                return;
+            }
+
+            ViewModel.BeginEdit(ViewModel.SelectedUser);
+            UserResultsGrid.BeginEdit();
+        }
+
+        private void OnUserSelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (ViewModel == null)
+            {
+                return;
+            }
+
+            foreach (var removed in e.RemovedItems.OfType<UserInfoModel>())
+            {
+                if (removed.IsEditing)
+                {
+                    ViewModel.CancelEdit(removed);
+                }
+            }
+        }
     }
 
 }
-
