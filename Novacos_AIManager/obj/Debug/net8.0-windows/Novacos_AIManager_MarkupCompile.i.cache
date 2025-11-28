@@ -1,0 +1,20 @@
+﻿Novacos_AIManager
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\
+Novacos_AIManager
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\App.xaml
+8-277215273
+3-539667592
+261996885153
+212-673451191
+MainWindow.xaml;View\AnalysisLeftMenu.xaml;View\Controls\FooterBar.xaml;View\Controls\TopBar.xaml;View\DatabaseQueryPage.xaml;View\DataManagementPage.xaml;View\UserEditDialog.xaml;View\WebPageControl.xaml;
+
+False
+
