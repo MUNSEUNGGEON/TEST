@@ -18,12 +18,7 @@ namespace Novacos_AIManager.View
             InitializeComponent();
             DataContext = new DatabaseQueryViewModel(title, query, emptyMessage, columnMapping);
         }
-        // ✅ (추가) DataGrid가 컬럼을 자동 생성할 때 언더바(_)가 사라지는 것을 방지
-        private void ResultsGrid_AutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
-        {
-            // 기본적으로 WPF는 언더바(_)를 공백으로 바꿔버리므로, 원래 컬럼명을 그대로 헤더에 유지
-            e.Column.Header = e.PropertyName;
-        }
+
         private DatabaseQueryViewModel? ViewModel => DataContext as DatabaseQueryViewModel;
 
         private void RegisterUser(object sender, RoutedEventArgs e)

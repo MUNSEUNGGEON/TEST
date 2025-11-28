@@ -11,7 +11,7 @@
     <Compile Update="View\Controls\TopBar.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="View\DatabaseQueryPage.xaml.cs">
+    <Compile Update="View\AIUserInfoPage.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\DataManagementPage.xaml.cs">

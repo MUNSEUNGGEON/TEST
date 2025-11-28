@@ -60,7 +60,7 @@ namespace Novacos_AIManager.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Novacos_AIManager;component/view/datamanagementpage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Novacos_AIManager;V1.0.0.0;component/view/datamanagementpage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\DataManagementPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

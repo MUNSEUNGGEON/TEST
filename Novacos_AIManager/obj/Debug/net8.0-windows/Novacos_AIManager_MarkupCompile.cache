@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\App.xaml
-8-277215273
+8-1977941798
 3-539667592
-28-17112706
+28-288375089
 212-673451191
-MainWindow.xaml;View\AnalysisLeftMenu.xaml;View\Controls\FooterBar.xaml;View\Controls\TopBar.xaml;View\DatabaseQueryPage.xaml;View\DataManagementPage.xaml;View\UserEditDialog.xaml;View\WebPageControl.xaml;
+MainWindow.xaml;View\AIUserInfoPage.xaml;View\AnalysisLeftMenu.xaml;View\Controls\FooterBar.xaml;View\Controls\TopBar.xaml;View\DataManagementPage.xaml;View\UserEditDialog.xaml;View\WebPageControl.xaml;
 
 False
 

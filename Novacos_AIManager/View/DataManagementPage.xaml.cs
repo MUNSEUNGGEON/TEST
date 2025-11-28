@@ -31,12 +31,7 @@ namespace Novacos_AIManager.View
             InitializeComponent();
             DataContext = new DataManagementViewModel(title, column2Name, items, reloadData);
         }
-        // ✅ (추가) DataGrid가 컬럼을 자동 생성할 때 언더바(_)가 사라지는 것을 방지
-        private void ResultsGrid_AutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
-        {
-            // 기본적으로 WPF는 언더바(_)를 공백으로 바꿔버리므로, 원래 컬럼명을 그대로 헤더에 유지
-            e.Column.Header = e.PropertyName;
-        }
+
         private void DG_Loaded(object sender, RoutedEventArgs e)
         {
             var vm = DataContext as DataManagementViewModel;
@@ -49,7 +44,7 @@ namespace Novacos_AIManager.View
             dg.Columns.Add(new DataGridTextColumn
             {
                 Header = "Num",
-                Binding = new Binding("Nu_m"),
+                Binding = new Binding("Num"),
                 Width = new DataGridLength(60)
             });
 

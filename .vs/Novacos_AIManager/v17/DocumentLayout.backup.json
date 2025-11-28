@@ -3,72 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\viewmodel\\queries\\userqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\viewmodel\\queries\\userqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\viewmodel\\topbarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\viewmodel\\topbarviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\viewmodel\\webpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\viewmodel\\webpageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\viewmodel\\queries\\learningdataqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\viewmodel\\queries\\learningdataqueries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\viewmodel\\queries\\analysisenginequeries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\viewmodel\\queries\\analysisenginequeries.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\view\\aiuserinfopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\view\\aiuserinfopage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\view\\webpagecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\view\\webpagecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\view\\usereditdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\view\\usereditdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\view\\usereditdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\view\\usereditdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\view\\aiuserinfopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\view\\aiuserinfopage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\view\\datamanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\view\\datamanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\view\\databasequerypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\view\\databasequerypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\view\\usereditdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\view\\usereditdialog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\view\\analysisleftmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\view\\analysisleftmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\view\\usereditdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\view\\usereditdialog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\viewmodel\\queries\\aiuserinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\viewmodel\\queries\\aiuserinfoviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\viewmodel\\databasequeryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\viewmodel\\databasequeryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\viewmodel\\datamanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\viewmodel\\datamanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\service\\filewatcherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\service\\filewatcherservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\model\\engineversionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\model\\engineversionmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\config\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\config\\appconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\\uC774\uC6A9\uAD8C\\desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\test-main\\novacos_aimanager\\view\\datamanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\view\\datamanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,217 +42,107 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TopBarViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\ViewModel\\TopBarViewModel.cs",
-              "RelativeDocumentMoniker": "Novacos_AIManager\\ViewModel\\TopBarViewModel.cs",
-              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\ViewModel\\TopBarViewModel.cs",
-              "RelativeToolTip": "Novacos_AIManager\\ViewModel\\TopBarViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T02:55:09.969Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "WebPageViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\ViewModel\\WebPageViewModel.cs",
-              "RelativeDocumentMoniker": "Novacos_AIManager\\ViewModel\\WebPageViewModel.cs",
-              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\ViewModel\\WebPageViewModel.cs",
-              "RelativeToolTip": "Novacos_AIManager\\ViewModel\\WebPageViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AIUserInfoPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\AIUserInfoPage.xaml.cs",
+              "RelativeDocumentMoniker": "Novacos_AIManager\\View\\AIUserInfoPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\AIUserInfoPage.xaml.cs",
+              "RelativeToolTip": "Novacos_AIManager\\View\\AIUserInfoPage.xaml.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T02:55:09.251Z",
+              "WhenOpened": "2025-11-28T07:56:42.863Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AnalysisEngineQueries.cs",
-              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\ViewModel\\Queries\\AnalysisEngineQueries.cs",
-              "RelativeDocumentMoniker": "Novacos_AIManager\\ViewModel\\Queries\\AnalysisEngineQueries.cs",
-              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\ViewModel\\Queries\\AnalysisEngineQueries.cs",
-              "RelativeToolTip": "Novacos_AIManager\\ViewModel\\Queries\\AnalysisEngineQueries.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T02:55:05.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "DatabaseQueryPage.xaml",
-              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\DatabaseQueryPage.xaml",
-              "RelativeDocumentMoniker": "Novacos_AIManager\\View\\DatabaseQueryPage.xaml",
-              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\DatabaseQueryPage.xaml",
-              "RelativeToolTip": "Novacos_AIManager\\View\\DatabaseQueryPage.xaml",
+              "DocumentIndex": 0,
+              "Title": "AIUserInfoPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\AIUserInfoPage.xaml",
+              "RelativeDocumentMoniker": "Novacos_AIManager\\View\\AIUserInfoPage.xaml",
+              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\AIUserInfoPage.xaml",
+              "RelativeToolTip": "Novacos_AIManager\\View\\AIUserInfoPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-28T02:54:17.137Z",
+              "WhenOpened": "2025-11-28T07:55:50.565Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DataManagementPage.xaml",
-              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\DataManagementPage.xaml",
-              "RelativeDocumentMoniker": "Novacos_AIManager\\View\\DataManagementPage.xaml",
-              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\DataManagementPage.xaml",
-              "RelativeToolTip": "Novacos_AIManager\\View\\DataManagementPage.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-28T02:54:16.061Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "WebPageControl.xaml",
               "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\WebPageControl.xaml",
               "RelativeDocumentMoniker": "Novacos_AIManager\\View\\WebPageControl.xaml",
               "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\WebPageControl.xaml",
               "RelativeToolTip": "Novacos_AIManager\\View\\WebPageControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-28T02:54:14.635Z",
+              "WhenOpened": "2025-11-28T07:55:44.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LearningDataQueries.cs",
-              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\ViewModel\\Queries\\LearningDataQueries.cs",
-              "RelativeDocumentMoniker": "Novacos_AIManager\\ViewModel\\Queries\\LearningDataQueries.cs",
-              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\ViewModel\\Queries\\LearningDataQueries.cs",
-              "RelativeToolTip": "Novacos_AIManager\\ViewModel\\Queries\\LearningDataQueries.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T02:54:08.073Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserQueries.cs",
-              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\ViewModel\\Queries\\UserQueries.cs",
-              "RelativeDocumentMoniker": "Novacos_AIManager\\ViewModel\\Queries\\UserQueries.cs",
-              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\ViewModel\\Queries\\UserQueries.cs",
-              "RelativeToolTip": "Novacos_AIManager\\ViewModel\\Queries\\UserQueries.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T02:53:31.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "AnalysisLeftMenu.xaml",
-              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\AnalysisLeftMenu.xaml",
-              "RelativeDocumentMoniker": "Novacos_AIManager\\View\\AnalysisLeftMenu.xaml",
-              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\AnalysisLeftMenu.xaml",
-              "RelativeToolTip": "Novacos_AIManager\\View\\AnalysisLeftMenu.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-28T02:54:30.269Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserEditDialog.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\UserEditDialog.xaml.cs",
-              "RelativeDocumentMoniker": "Novacos_AIManager\\View\\UserEditDialog.xaml.cs",
-              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\UserEditDialog.xaml.cs",
-              "RelativeToolTip": "Novacos_AIManager\\View\\UserEditDialog.xaml.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAAC0AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T02:54:00.741Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "UserEditDialog.xaml",
               "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\UserEditDialog.xaml",
               "RelativeDocumentMoniker": "Novacos_AIManager\\View\\UserEditDialog.xaml",
               "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\UserEditDialog.xaml",
               "RelativeToolTip": "Novacos_AIManager\\View\\UserEditDialog.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-11-28T02:41:28.796Z",
+              "WhenOpened": "2025-11-28T07:54:45.546Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "Novacos_AIManager\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Novacos_AIManager\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAswIMAAAANAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "AIUserInfoViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\ViewModel\\Queries\\AIUserInfoViewModel.cs",
+              "RelativeDocumentMoniker": "Novacos_AIManager\\ViewModel\\Queries\\AIUserInfoViewModel.cs",
+              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\ViewModel\\Queries\\AIUserInfoViewModel.cs",
+              "RelativeToolTip": "Novacos_AIManager\\ViewModel\\Queries\\AIUserInfoViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T02:39:53.964Z"
+              "WhenOpened": "2025-11-28T07:53:53.011Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "DatabaseQueryViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\ViewModel\\DatabaseQueryViewModel.cs",
-              "RelativeDocumentMoniker": "Novacos_AIManager\\ViewModel\\DatabaseQueryViewModel.cs",
-              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\ViewModel\\DatabaseQueryViewModel.cs",
-              "RelativeToolTip": "Novacos_AIManager\\ViewModel\\DatabaseQueryViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "UserEditDialog.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\UserEditDialog.xaml.cs",
+              "RelativeDocumentMoniker": "Novacos_AIManager\\View\\UserEditDialog.xaml.cs",
+              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\UserEditDialog.xaml.cs",
+              "RelativeToolTip": "Novacos_AIManager\\View\\UserEditDialog.xaml.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T02:35:45.236Z"
+              "WhenOpened": "2025-11-28T07:53:48.455Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "DataManagementViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\ViewModel\\DataManagementViewModel.cs",
-              "RelativeDocumentMoniker": "Novacos_AIManager\\ViewModel\\DataManagementViewModel.cs",
-              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\ViewModel\\DataManagementViewModel.cs",
-              "RelativeToolTip": "Novacos_AIManager\\ViewModel\\DataManagementViewModel.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "DataManagementPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\DataManagementPage.xaml.cs",
+              "RelativeDocumentMoniker": "Novacos_AIManager\\View\\DataManagementPage.xaml.cs",
+              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\DataManagementPage.xaml.cs",
+              "RelativeToolTip": "Novacos_AIManager\\View\\DataManagementPage.xaml.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAC8AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T02:35:39.167Z"
+              "WhenOpened": "2025-11-28T07:40:07.589Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FileWatcherService.cs",
-              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\Service\\FileWatcherService.cs",
-              "RelativeDocumentMoniker": "Novacos_AIManager\\Service\\FileWatcherService.cs",
-              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\Service\\FileWatcherService.cs",
-              "RelativeToolTip": "Novacos_AIManager\\Service\\FileWatcherService.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T02:34:20.489Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EngineVersionModel.cs",
-              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\Model\\EngineVersionModel.cs",
-              "RelativeDocumentMoniker": "Novacos_AIManager\\Model\\EngineVersionModel.cs",
-              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\Model\\EngineVersionModel.cs",
-              "RelativeToolTip": "Novacos_AIManager\\Model\\EngineVersionModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T02:34:19.346Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AppConfig.cs",
-              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\Config\\AppConfig.cs",
-              "RelativeDocumentMoniker": "Novacos_AIManager\\Config\\AppConfig.cs",
-              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\Config\\AppConfig.cs",
-              "RelativeToolTip": "Novacos_AIManager\\Config\\AppConfig.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-28T02:34:15.222Z"
+              "DocumentIndex": 3,
+              "Title": "DataManagementPage.xaml",
+              "DocumentMoniker": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\DataManagementPage.xaml",
+              "RelativeDocumentMoniker": "Novacos_AIManager\\View\\DataManagementPage.xaml",
+              "ToolTip": "C:\\Users\\\uC774\uC6A9\uAD8C\\Desktop\\\uC815\uC624\uD45C \uB300\uB85C \uC218\uC815 \uBCF8\\TEST-main\\Novacos_AIManager\\View\\DataManagementPage.xaml",
+              "RelativeToolTip": "Novacos_AIManager\\View\\DataManagementPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-28T07:40:00.528Z",
+              "EditorCaption": ""
             }
           ]
         }

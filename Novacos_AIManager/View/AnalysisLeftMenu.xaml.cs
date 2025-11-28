@@ -111,9 +111,9 @@ namespace Novacos_AIManager.View
             MainWindowViewModel.Instance.Navigation.NavigateTo(
                 new DatabaseQueryPage(
                     "학습 모니터링 - 분석엔진",
-                    AnalysisEngineQueries.Monitoring,
+                    AIEngineMonitoringViewModel.Monitoring,
                     "진행 중인 학습 정보가 없습니다.",
-                    AnalysisEngineQueries.Columns));
+                    AIEngineMonitoringViewModel.Columns));
         }
 
         private void OpenMonitoringData(object sender, MouseButtonEventArgs e)
@@ -121,9 +121,9 @@ namespace Novacos_AIManager.View
             MainWindowViewModel.Instance.Navigation.NavigateTo(
                 new DatabaseQueryPage(
                     "학습 모니터링 - 학습데이터",
-                    LearningDataQueries.Monitoring,
+                    AILearningMonitoringViewModel.Monitoring,
                     "완료된 학습 이력이 없습니다.",
-                    LearningDataQueries.Columns));
+                    AILearningMonitoringViewModel.Columns));
         }
 
 
@@ -132,7 +132,7 @@ namespace Novacos_AIManager.View
             MainWindowViewModel.Instance.Navigation.NavigateTo(
                 new DatabaseQueryPage(
                     "사용자 정보",
-                    UserQueries.UserList,
+                    AIUserInfoViewModel.UserList,
                     "등록된 사용자가 없습니다."));
         }
     }

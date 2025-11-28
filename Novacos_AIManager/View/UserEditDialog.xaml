@@ -145,7 +145,7 @@
                           Foreground="Black">
                     <ComboBoxItem IsSelected="True" IsEnabled="False" Foreground="Black">선택</ComboBoxItem>
                     <ComboBoxItem Foreground="Black">관리자</ComboBoxItem>
-                    <ComboBoxItem Foreground="Black">일반 사용자</ComboBoxItem>
+                    <ComboBoxItem Foreground="Black">사용자</ComboBoxItem>
                 </ComboBox>
 
                 <!-- 소속 -->
@@ -164,7 +164,7 @@
                           BorderThickness="1"
                           Foreground="Black">
                     <ComboBoxItem IsSelected="True" IsEnabled="False" Foreground="Black">선택</ComboBoxItem>
-                    <ComboBoxItem Foreground="Black">전략기획팀</ComboBoxItem>
+                    <ComboBoxItem Foreground="Black">연구소</ComboBoxItem>
                     <ComboBoxItem Foreground="Black">개발팀</ComboBoxItem>
                 </ComboBox>
 
@@ -184,9 +184,10 @@
                           BorderThickness="1"
                           Foreground="Black">
                     <ComboBoxItem IsSelected="True" IsEnabled="False" Foreground="Black">선택</ComboBoxItem>
-                    <ComboBoxItem Foreground="Black">사원</ComboBoxItem>
-                    <ComboBoxItem Foreground="Black">대리</ComboBoxItem>
-                    <ComboBoxItem Foreground="Black">과장</ComboBoxItem>
+                    <ComboBoxItem Foreground="Black">수석연구원</ComboBoxItem>
+                    <ComboBoxItem Foreground="Black">책임연구원</ComboBoxItem>
+                    <ComboBoxItem Foreground="Black">선임연구원</ComboBoxItem>
+                    <ComboBoxItem Foreground="Black">연구원</ComboBoxItem>
                 </ComboBox>
 
                 <!-- 버튼 -->

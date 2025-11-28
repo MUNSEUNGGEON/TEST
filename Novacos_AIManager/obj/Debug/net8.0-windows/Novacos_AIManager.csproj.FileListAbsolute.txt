@@ -683,14 +683,12 @@ C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\ob
 C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
 C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
 C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
-C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.baml
 C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
 C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
 C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
 C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
 C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
 C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
-C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.g.cs
 C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
 C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
 C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
@@ -743,3 +741,6 @@ C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManag
 C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
 C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
 C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.sourcelink.json
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.g.cs

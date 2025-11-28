@@ -6,7 +6,7 @@ namespace Novacos_AIManager.ViewModel.Queries
     /// <summary>
     /// 학습데이터 조회 및 학습 모니터링(학습데이터) 화면에서 사용하는 쿼리와 컬럼 매핑을 정의합니다.
     /// </summary>
-    public static class LearningDataQueries
+    public static class AILearningMonitoringViewModel
     {
         private const string BaseSelect = "SELECT * FROM tbl_train_history";
 
