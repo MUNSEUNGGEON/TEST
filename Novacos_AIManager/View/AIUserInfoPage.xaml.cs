@@ -100,7 +100,7 @@ namespace Novacos_AIManager.View
             }
 
             ViewModel.BeginEdit(ViewModel.SelectedUser);
-            (sender as DataGrid)?.BeginEdit();
+            UserResultsGrid.BeginEdit();
         }
 
         private void OnUserSelectionChanged(object sender, SelectionChangedEventArgs e)
