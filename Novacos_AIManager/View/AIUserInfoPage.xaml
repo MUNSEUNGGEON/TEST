@@ -34,50 +34,162 @@
                 Background="#1E1E1E"
                 Padding="16"
                 CornerRadius="8">
+            <Grid>
+                <DataGrid x:Name="UserResultsGrid"
+                          ItemsSource="{Binding UserItems}"
+                          SelectedItem="{Binding SelectedUser, Mode=TwoWay}"
+                          AutoGenerateColumns="False"
+                          CanUserAddRows="False"
+                          CanUserDeleteRows="False"
+                          IsReadOnly="False"
+                          Visibility="{Binding IsUserInfoPage, Converter={StaticResource BoolToVisibility}}"
+                          MouseDoubleClick="OnUserGridDoubleClick"
+                          SelectionChanged="OnUserSelectionChanged"
+                          HeadersVisibility="Column"
+                          Background="#2A2A2A"
+                          Foreground="#FFFFFF"
+                          AlternatingRowBackground="#333333"
+                          RowBackground="#2A2A2A"
+                          GridLinesVisibility="None"
+                          BorderThickness="0"
+                          FontSize="14">
 
-            <DataGrid x:Name="ResultsGrid"
-                      ItemsSource="{Binding Results}"
-                      AutoGenerateColumns="True"
-                      IsReadOnly="True"
-                      HeadersVisibility="Column"
-                      Background="#2A2A2A"
-                      Foreground="#FFFFFF"
-                      AlternatingRowBackground="#333333"
-                      RowBackground="#2A2A2A"
-                      GridLinesVisibility="None"
-                      BorderThickness="0"
-                      FontSize="14">
-
-                <!-- 헤더 스타일 (DatabaseQueryPage와 동일) -->
-                <DataGrid.ColumnHeaderStyle>
-                    <Style TargetType="DataGridColumnHeader">
-                        <Setter Property="Background" Value="#3A3A3A"/>
-                        <Setter Property="Foreground" Value="#FFFFFF"/>
-                        <Setter Property="FontWeight" Value="Bold"/>
-                        <Setter Property="BorderBrush" Value="#555555"/>
-                        <Setter Property="BorderThickness" Value="0,0,0,1"/>
-                        <Setter Property="Padding" Value="8"/>
-                        <Setter Property="ContentTemplate">
-                            <Setter.Value>
-                                <!-- AccessText를 사용하지 않도록 TextBlock으로 헤더를 렌더링 -->
+                    <DataGrid.Columns>
+                        <DataGridTextColumn Header="번호"
+                                            Binding="{Binding Id}"
+                                            IsReadOnly="True"
+                                            Width="*"/>
+                        <DataGridTextColumn Header="아이디"
+                                            Binding="{Binding UserId}"
+                                            IsReadOnly="True"
+                                            Width="*"/>
+                        <DataGridTextColumn Header="이름"
+                                            Binding="{Binding UserName}"
+                                            IsReadOnly="True"
+                                            Width="*"/>
+                        <DataGridTemplateColumn Header="권한" Width="*">
+                            <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
-                                    <TextBlock Text="{Binding}"/>
+                                    <TextBlock Text="{Binding UserType}"/>
                                 </DataTemplate>
-                            </Setter.Value>
-                        </Setter>
-                    </Style>
-                </DataGrid.ColumnHeaderStyle>
+                            </DataGridTemplateColumn.CellTemplate>
+                            <DataGridTemplateColumn.CellEditingTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding DataContext.UserTypeOptions, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                              SelectedItem="{Binding EditUserType, UpdateSourceTrigger=PropertyChanged}"
+                                              IsEditable="True"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellEditingTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="소속" Width="*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Department}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                            <DataGridTemplateColumn.CellEditingTemplate>
+                                <DataTemplate>
+                                    <TextBox Text="{Binding EditDepartment, UpdateSourceTrigger=PropertyChanged}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellEditingTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTemplateColumn Header="직책" Width="*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding Position}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                            <DataGridTemplateColumn.CellEditingTemplate>
+                                <DataTemplate>
+                                    <TextBox Text="{Binding EditPosition, UpdateSourceTrigger=PropertyChanged}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellEditingTemplate>
+                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Header="이메일"
+                                            Binding="{Binding Email}"
+                                            IsReadOnly="True"
+                                            Width="*"/>
+                        <DataGridTextColumn Header="등록일"
+                                            Binding="{Binding CreatedAt}"
+                                            IsReadOnly="True"
+                                            Width="*"/>
+                    </DataGrid.Columns>
 
-                <!-- Row 스타일 -->
-                <DataGrid.RowStyle>
-                    <Style TargetType="DataGridRow">
-                        <Setter Property="BorderBrush" Value="#444444"/>
-                        <Setter Property="BorderThickness" Value="0,0,0,1"/>
-                        <Setter Property="Foreground" Value="White"/>
-                    </Style>
-                </DataGrid.RowStyle>
+                    <!-- 헤더 스타일 (DatabaseQueryPage와 동일) -->
+                    <DataGrid.ColumnHeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="Background" Value="#3A3A3A"/>
+                            <Setter Property="Foreground" Value="#FFFFFF"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+                            <Setter Property="BorderBrush" Value="#555555"/>
+                            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+                            <Setter Property="Padding" Value="8"/>
+                            <Setter Property="ContentTemplate">
+                                <Setter.Value>
+                                    <!-- AccessText를 사용하지 않도록 TextBlock으로 헤더를 렌더링 -->
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding}"/>
+                                    </DataTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </DataGrid.ColumnHeaderStyle>
 
-            </DataGrid>
+                    <!-- Row 스타일 -->
+                    <DataGrid.RowStyle>
+                        <Style TargetType="DataGridRow">
+                            <Setter Property="BorderBrush" Value="#444444"/>
+                            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Style>
+                    </DataGrid.RowStyle>
+                </DataGrid>
+
+                <DataGrid x:Name="ResultsGrid"
+                          ItemsSource="{Binding Results}"
+                          Visibility="{Binding IsNotUserInfoPage, Converter={StaticResource BoolToVisibility}}"
+                          AutoGenerateColumns="True"
+                          IsReadOnly="True"
+                          HeadersVisibility="Column"
+                          Background="#2A2A2A"
+                          Foreground="#FFFFFF"
+                          AlternatingRowBackground="#333333"
+                          RowBackground="#2A2A2A"
+                          GridLinesVisibility="None"
+                          BorderThickness="0"
+                          FontSize="14">
+
+                    <!-- 헤더 스타일 (DatabaseQueryPage와 동일) -->
+                    <DataGrid.ColumnHeaderStyle>
+                        <Style TargetType="DataGridColumnHeader">
+                            <Setter Property="Background" Value="#3A3A3A"/>
+                            <Setter Property="Foreground" Value="#FFFFFF"/>
+                            <Setter Property="FontWeight" Value="Bold"/>
+                            <Setter Property="BorderBrush" Value="#555555"/>
+                            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+                            <Setter Property="Padding" Value="8"/>
+                            <Setter Property="ContentTemplate">
+                                <Setter.Value>
+                                    <!-- AccessText를 사용하지 않도록 TextBlock으로 헤더를 렌더링 -->
+                                    <DataTemplate>
+                                        <TextBlock Text="{Binding}"/>
+                                    </DataTemplate>
+                                </Setter.Value>
+                            </Setter>
+                        </Style>
+                    </DataGrid.ColumnHeaderStyle>
+
+                    <!-- Row 스타일 -->
+                    <DataGrid.RowStyle>
+                        <Style TargetType="DataGridRow">
+                            <Setter Property="BorderBrush" Value="#444444"/>
+                            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+                            <Setter Property="Foreground" Value="White"/>
+                        </Style>
+                    </DataGrid.RowStyle>
+
+                </DataGrid>
+            </Grid>
         </Border>
 
         <!-- 하단 버튼 영역 -->
@@ -107,6 +219,17 @@
                     BorderThickness="0"
                     Cursor="Hand"
                     Click="DeleteUser"/>
+
+            <Button Content="수정"
+                    Width="90"
+                    Height="36"
+                    Margin="0 0 8 0"
+                    Visibility="{Binding IsUserInfoPage, Converter={StaticResource BoolToVisibility}}"
+                    Background="#3A3A3A"
+                    Foreground="White"
+                    BorderThickness="0"
+                    Cursor="Hand"
+                    Command="{Binding SaveUserCommand}"/>
 
             <Button Content="조회"
                     Width="90"
