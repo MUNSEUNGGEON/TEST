@@ -118,6 +118,15 @@ namespace Novacos_AIManager.View
                 }
             }
         }
+
+        private void OnDropdownLoaded(object sender, RoutedEventArgs e)
+        {
+            if (sender is ComboBox comboBox)
+            {
+                comboBox.Focus();
+                comboBox.IsDropDownOpen = true;
+            }
+        }
     }
 
 }

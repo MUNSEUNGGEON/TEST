@@ -53,6 +53,12 @@ namespace Novacos_AIManager.ViewModel
         }
 
         public ObservableCollection<string> UserTypeOptions { get; } = new();
+        public ObservableCollection<string> DepartmentOptions { get; } = new();
+        public ObservableCollection<string> PositionOptions { get; } = new();
+
+        private static readonly string[] DefaultUserTypes = { "관리자", "사용자" };
+        private static readonly string[] DefaultDepartments = { "연구소", "개발팀" };
+        private static readonly string[] DefaultPositions = { "수석연구원", "책임연구원", "선임연구원", "연구원" };
 
         private string _statusMessage = string.Empty;
         public string StatusMessage
@@ -141,6 +147,8 @@ namespace Novacos_AIManager.ViewModel
             RefreshCommand = new RelayCommand(_ => LoadData());
             SaveUserCommand = new RelayCommand(_ => SaveEditingUser(), _ => CanSaveUser());
 
+            InitializeDropdownOptions();
+
             LoadData();
         }
 
@@ -187,6 +195,13 @@ namespace Novacos_AIManager.ViewModel
             StatusMessage = errorMessage ?? "알 수 없는 오류가 발생했습니다.";
         }
 
+        private void InitializeDropdownOptions()
+        {
+            ResetCollection(UserTypeOptions, DefaultUserTypes);
+            ResetCollection(DepartmentOptions, DefaultDepartments);
+            ResetCollection(PositionOptions, DefaultPositions);
+        }
+
         private void LoadUserData()
         {
             if (!DatabaseManager.Instance.IsConnected)
@@ -225,6 +240,8 @@ namespace Novacos_AIManager.ViewModel
                 UserItems = items;
                 SelectedUser = null;
                 UpdateUserTypeOptions(items);
+                UpdateDepartmentOptions(items);
+                UpdatePositionOptions(items);
                 StatusMessage = $"총 {items.Count}건의 데이터를 조회했습니다.";
                 return;
             }
@@ -348,7 +365,7 @@ namespace Novacos_AIManager.ViewModel
 
         private void UpdateUserTypeOptions(IEnumerable<UserInfoModel> users)
         {
-            UserTypeOptions.Clear();
+            ResetCollection(UserTypeOptions, DefaultUserTypes);
 
             foreach (var type in users)
             {
@@ -356,6 +373,42 @@ namespace Novacos_AIManager.ViewModel
                 {
                     UserTypeOptions.Add(type.UserType);
                 }
+            }
+        }
+
+        private void UpdateDepartmentOptions(IEnumerable<UserInfoModel> users)
+        {
+            ResetCollection(DepartmentOptions, DefaultDepartments);
+
+            foreach (var department in users)
+            {
+                if (!string.IsNullOrWhiteSpace(department.Department) && !DepartmentOptions.Contains(department.Department))
+                {
+                    DepartmentOptions.Add(department.Department);
+                }
+            }
+        }
+
+        private void UpdatePositionOptions(IEnumerable<UserInfoModel> users)
+        {
+            ResetCollection(PositionOptions, DefaultPositions);
+
+            foreach (var position in users)
+            {
+                if (!string.IsNullOrWhiteSpace(position.Position) && !PositionOptions.Contains(position.Position))
+                {
+                    PositionOptions.Add(position.Position);
+                }
+            }
+        }
+
+        private static void ResetCollection(ObservableCollection<string> target, IEnumerable<string> values)
+        {
+            target.Clear();
+
+            foreach (var value in values)
+            {
+                target.Add(value);
             }
         }
 
