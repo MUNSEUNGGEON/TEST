@@ -53,6 +53,8 @@ namespace Novacos_AIManager.ViewModel
         }
 
         public ObservableCollection<string> UserTypeOptions { get; } = new();
+        public ObservableCollection<string> DepartmentOptions { get; } = new();
+        public ObservableCollection<string> PositionOptions { get; } = new();
 
         private string _statusMessage = string.Empty;
         public string StatusMessage
@@ -192,6 +194,7 @@ namespace Novacos_AIManager.ViewModel
             if (!DatabaseManager.Instance.IsConnected)
             {
                 UserItems = null;
+                ClearUserOptionCollections();
                 StatusMessage = "데이터베이스 연결에 실패했습니다.";
                 return;
             }
@@ -201,6 +204,7 @@ namespace Novacos_AIManager.ViewModel
                 if (table == null || table.Rows.Count == 0)
                 {
                     UserItems = null;
+                    ClearUserOptionCollections();
                     StatusMessage = _emptyMessage ?? "조회된 데이터가 없습니다.";
                     return;
                 }
@@ -224,12 +228,13 @@ namespace Novacos_AIManager.ViewModel
 
                 UserItems = items;
                 SelectedUser = null;
-                UpdateUserTypeOptions(items);
+                UpdateUserOptionCollections(items);
                 StatusMessage = $"총 {items.Count}건의 데이터를 조회했습니다.";
                 return;
             }
 
             UserItems = null;
+            ClearUserOptionCollections();
             StatusMessage = errorMessage ?? "알 수 없는 오류가 발생했습니다.";
         }
 
@@ -346,16 +351,30 @@ namespace Novacos_AIManager.ViewModel
             return int.TryParse(value, out var result) ? result : 0;
         }
 
-        private void UpdateUserTypeOptions(IEnumerable<UserInfoModel> users)
+        private void ClearUserOptionCollections()
         {
             UserTypeOptions.Clear();
+            DepartmentOptions.Clear();
+            PositionOptions.Clear();
+        }
 
-            foreach (var type in users)
+        private void UpdateUserOptionCollections(IEnumerable<UserInfoModel> users)
+        {
+            ClearUserOptionCollections();
+
+            foreach (var user in users)
             {
-                if (!string.IsNullOrWhiteSpace(type.UserType) && !UserTypeOptions.Contains(type.UserType))
-                {
-                    UserTypeOptions.Add(type.UserType);
-                }
+                AddDistinctOption(UserTypeOptions, user.UserType);
+                AddDistinctOption(DepartmentOptions, user.Department);
+                AddDistinctOption(PositionOptions, user.Position);
+            }
+        }
+
+        private static void AddDistinctOption(ObservableCollection<string> target, string? value)
+        {
+            if (!string.IsNullOrWhiteSpace(value) && !target.Contains(value))
+            {
+                target.Add(value);
             }
         }
 
