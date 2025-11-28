@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ViewModel\251113 %28훈련모드내용 수정, 추가수정사항%29 납품검사 절차서 동적 항목 v0.6.hwp.hwpx" />
+    <None Remove="ViewModel\251127 납품검사 절차서 동적 항목 v0.8%28동적 수정본%29.hwp.hwpx" />
+    <None Remove="ViewModel\붙임#5 AI 융합 기동형 통합경계시스템 동적 시험 항목%28v0.994%29.hwp" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.3595.46" />
+    <PackageReference Include="MySql.Data" Version="9.5.0" />
+    <PackageReference Include="MySqlConnector" Version="2.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\AnalysisEngine.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
