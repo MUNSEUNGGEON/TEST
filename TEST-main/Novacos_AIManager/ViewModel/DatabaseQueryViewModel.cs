@@ -56,6 +56,10 @@ namespace Novacos_AIManager.ViewModel
         public ObservableCollection<string> DepartmentOptions { get; } = new();
         public ObservableCollection<string> PositionOptions { get; } = new();
 
+        private static readonly string[] DefaultUserTypes = { "관리자", "사용자" };
+        private static readonly string[] DefaultDepartments = { "연구소", "개발팀" };
+        private static readonly string[] DefaultPositions = { "수석연구원", "책임연구원", "선임연구원", "연구원" };
+
         private string _statusMessage = string.Empty;
         public string StatusMessage
         {
@@ -194,7 +198,7 @@ namespace Novacos_AIManager.ViewModel
             if (!DatabaseManager.Instance.IsConnected)
             {
                 UserItems = null;
-                ClearUserOptionCollections();
+                ResetUserOptionCollections();
                 StatusMessage = "데이터베이스 연결에 실패했습니다.";
                 return;
             }
@@ -204,7 +208,7 @@ namespace Novacos_AIManager.ViewModel
                 if (table == null || table.Rows.Count == 0)
                 {
                     UserItems = null;
-                    ClearUserOptionCollections();
+                    ResetUserOptionCollections();
                     StatusMessage = _emptyMessage ?? "조회된 데이터가 없습니다.";
                     return;
                 }
@@ -234,7 +238,7 @@ namespace Novacos_AIManager.ViewModel
             }
 
             UserItems = null;
-            ClearUserOptionCollections();
+            ResetUserOptionCollections();
             StatusMessage = errorMessage ?? "알 수 없는 오류가 발생했습니다.";
         }
 
@@ -351,16 +355,20 @@ namespace Novacos_AIManager.ViewModel
             return int.TryParse(value, out var result) ? result : 0;
         }
 
-        private void ClearUserOptionCollections()
+        private void ResetUserOptionCollections()
         {
             UserTypeOptions.Clear();
             DepartmentOptions.Clear();
             PositionOptions.Clear();
+
+            AddOptions(UserTypeOptions, DefaultUserTypes);
+            AddOptions(DepartmentOptions, DefaultDepartments);
+            AddOptions(PositionOptions, DefaultPositions);
         }
 
         private void UpdateUserOptionCollections(IEnumerable<UserInfoModel> users)
         {
-            ClearUserOptionCollections();
+            ResetUserOptionCollections();
 
             foreach (var user in users)
             {
@@ -375,6 +383,14 @@ namespace Novacos_AIManager.ViewModel
             if (!string.IsNullOrWhiteSpace(value) && !target.Contains(value))
             {
                 target.Add(value);
+            }
+        }
+
+        private static void AddOptions(ObservableCollection<string> target, IEnumerable<string> values)
+        {
+            foreach (var value in values)
+            {
+                AddDistinctOption(target, value);
             }
         }
 
