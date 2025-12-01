@@ -92,6 +92,13 @@ namespace Novacos_AIManager.ViewModel
         private static readonly IReadOnlyDictionary<string, string> PositionLabelToCode =
             PositionCodeToLabel.ToDictionary(kvp => kvp.Value, kvp => kvp.Key);
 
+        private static readonly string[] DefaultUserTypes = UserTypeCodeToLabel.Values.ToArray();
+        private static readonly string[] DefaultDepartments = DepartmentCodeToLabel.Values.ToArray();
+        private static readonly string[] DefaultPositions = PositionCodeToLabel.Values.ToArray();
+        private static readonly string[] DefaultUserTypes = { "1", "2", "3" };
+        private static readonly string[] DefaultDepartments = { "100", "101", "102", "103", "104" };
+        private static readonly string[] DefaultPositions = { "105", "106", "107", "108" };
+
         private string _statusMessage = string.Empty;
         public string StatusMessage
         {
