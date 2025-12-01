@@ -17,7 +17,7 @@ namespace Novacos_AIManager.View
             get
             {
                 if (UserTypeComboBox.SelectedItem is ComboBoxItem item)
-                    return item.Content?.ToString() ?? string.Empty;
+                    return (item.Tag ?? item.Content)?.ToString() ?? string.Empty;
                 return string.Empty;
             }
         }
@@ -27,7 +27,7 @@ namespace Novacos_AIManager.View
             get
             {
                 if (DepartmentComboBox.SelectedItem is ComboBoxItem item)
-                    return item.Content?.ToString() ?? string.Empty;
+                    return (item.Tag ?? item.Content)?.ToString() ?? string.Empty;
                 return string.Empty;
             }
         }
@@ -37,7 +37,7 @@ namespace Novacos_AIManager.View
             get
             {
                 if (PositionComboBox.SelectedItem is ComboBoxItem item)
-                    return item.Content?.ToString() ?? string.Empty;
+                    return (item.Tag ?? item.Content)?.ToString() ?? string.Empty;
                 return string.Empty;
             }
         }
