@@ -14,7 +14,8 @@ namespace Novacos_AIManager.Utils
     /// 엔진 버전 정보 로딩 유틸리티
     /// - 폴더 내 파일명을 읽어와 DataGrid에 바인딩 가능한 컬렉션으로 변환
     /// - 파일은 "열지 않고", 파일명 문자열만 사용해서 날짜/코어이름/카메라타입을 추출
-    /// - 기본 파일명 규칙: YYYYMMDD_CoreName_CameraType (예: 20251124_EngineVersion_MWIR)
+    /// - 기본 파일명 규칙: YYYYMMDD_Version_CoreName_CameraType
+    ///   (예: 20251124_v1_EngineDistribution_EO)
     /// </summary>
     public static class DataLoader
     {
@@ -30,17 +31,18 @@ namespace Novacos_AIManager.Utils
         /// <summary>
         /// 폴더에서 파일 목록을 읽어와
         /// - Num (순번)
-        /// - FileName (코어 이름: 날짜/카메라타입 제거된 이름)
-        /// - Column2 (날짜: 파일명 8자리 또는 수정일)
+        /// - FileName (코어 이름: 날짜/버전/카메라타입 제거된 이름)
+        /// - Column2 (버전: 파일명 두 번째 토큰)
         /// - CameraType (카메라 타입: 파일명 마지막 토큰)
+        /// - Date (필터용 날짜: 파일명 첫 번째 토큰 또는 수정일)
         /// 으로 구성된 컬렉션을 반환합니다.
         /// 
         /// 파일을 실제로 열지 않고, 파일명과 파일 수정일 정보만 사용합니다.
         /// 파일명 기본 규칙:
-        ///   YYYYMMDD_CoreName_CameraType
+        ///   YYYYMMDD_Version_CoreName_CameraType
         /// 예)
-        ///   20251124_EngineVersion_MWIR
-        ///   20251125_Engine_V1_EO
+        ///   20251124_v1_EngineDistribution_EO
+        ///   20251125_v2_EngineVersion_MWIR
         /// 
         /// keyword가 주어지면 파일명에 keyword가 포함된 파일만 필터링합니다(대소문자 무시).
         /// </summary>
@@ -63,22 +65,21 @@ namespace Novacos_AIManager.Utils
                 if (IsFiltered(info.Name, keyword))
                     continue;
 
-                // 파일명 기반 날짜 추출 (없으면 수정일 사용)
-                string date = ExtractDateFromName(info.Name, info.LastWriteTime);
-
-                // 파일명 기반 카메라 타입 추출 (마지막 토큰)
-                string cameraType = ExtractCameraTypeFromName(info.Name);
-
-                // 파일명 기반 코어 이름 추출 (날짜 + 카메라타입 제거)
-                string coreName = ExtractCoreName(info.Name);
+                // 파일명 기반 날짜/버전/카메라타입/코어 이름 추출
+                var parsed = TryParseStandardPattern(info.Name, info.LastWriteTime);
+                string date = parsed.Date;
+                string version = parsed.Version;
+                string cameraType = parsed.CameraType;
+                string coreName = parsed.CoreName;
 
                 // DataGrid에 바인딩할 익명 객체 추가
                 list.Add(new
                 {
                     Num = num++,
-                    FileName = coreName,   // 예: 20251124_EngineVersion_MWIR → EngineVersion
-                    Column2 = date,        // 예: 20251124_EngineVersion_MWIR → 20251124
-                    CameraType = cameraType // 예: 20251124_EngineVersion_MWIR → MWIR
+                    FileName = coreName,    // 예: 20251124_v1_EngineDistribution_EO → EngineDistribution
+                    Column2 = version,      // 예: 20251124_v1_EngineDistribution_EO → v1
+                    CameraType = cameraType,// 예: 20251124_v1_EngineDistribution_EO → EO
+                    Date = date             // 필터용 날짜 값
                 });
 
                 // 🔻 🔻 🔻 예전 ZIP 내부까지 읽던 로직 (지금은 사용하지 않음, 참고용으로 주석 처리) 🔻 🔻 🔻
@@ -122,7 +123,7 @@ namespace Novacos_AIManager.Utils
         /// <summary>
         /// 파일명에서 날짜(YYYYMMDD)를 추출.
         /// - 규칙 1: "언더바(_)로 분리했을 때 첫 번째 토큰이 8자리 숫자"면 그 값을 날짜로 사용
-        ///   예) 20251124_EngineVersion_MWIR → 20251124
+        ///   예) 20251124_v1_EngineDistribution_EO → 20251124
         /// - 규칙 2: 그렇지 않으면 전체 이름에서 8자리 숫자를 정규식으로 찾아서 사용
         /// - 규칙 3: 그래도 없으면 파일 수정일(LastWriteTime)을 yyyyMMdd로 사용
         /// </summary>
@@ -150,8 +151,8 @@ namespace Novacos_AIManager.Utils
         /// <summary>
         /// 파일명에서 카메라 타입을 추출.
         /// - 기본 규칙: 언더바('_')로 분리했을 때 "마지막 토큰"을 카메라 타입으로 사용
-        ///   예) 20251124_EngineVersion_MWIR → MWIR
-        ///       20251125_Engine_V1_EO     → EO
+        ///   예) 20251124_v1_EngineDistribution_EO → EO
+        ///       20251125_v2_Engine_V1_MWIR       → MWIR
         /// - 토큰이 2개 이상일 때만 마지막 토큰을 카메라 타입으로 간주
         /// - 규칙에 맞지 않으면 "Null" 반환
         /// </summary>
@@ -173,12 +174,31 @@ namespace Novacos_AIManager.Utils
         }
 
         /// <summary>
+        /// 파일명에서 버전 정보를 추출.
+        /// - 규칙: 언더바('_')로 분리했을 때 두 번째 토큰을 버전으로 사용
+        ///   예) 20251124_v1_EngineDistribution_EO → v1
+        /// - 규칙에 맞지 않으면 "Null" 반환
+        /// </summary>
+        private static string ExtractVersionFromName(string fileName)
+        {
+            string nameWithoutExtension = Path.GetFileNameWithoutExtension(fileName);
+
+            var parts = nameWithoutExtension
+                .Split('_', StringSplitOptions.RemoveEmptyEntries);
+
+            if (parts.Length >= 2)
+                return parts[1];
+
+            return "Null";
+        }
+
+        /// <summary>
         /// 파일명에서 "코어 이름"을 추출.
-        /// - 규칙: [0] = 날짜, [마지막] = 카메라타입 으로 보고,
+        /// - 규칙: [0] = 날짜, [1] = 버전, [마지막] = 카메라타입 으로 보고,
         ///         그 사이에 있는 토큰들을 코어 이름으로 사용.
-        ///   예) 20251124_EngineVersion_MWIR → EngineVersion
-        ///       20251124_Engine_V1_MWIR    → Engine_V1
-        /// - 토큰이 2개(날짜 + 이름)인 경우: 두 번째 토큰을 코어 이름으로 사용
+        ///   예) 20251124_v1_EngineDistribution_EO → EngineDistribution
+        ///       20251124_v2_Engine_V1_EO         → Engine_V1
+        /// - 토큰이 3개(날짜 + 버전 + 이름)인 경우: 세 번째 토큰을 코어 이름으로 사용
         /// - 그 외 경우: 전체 이름(확장자 제거) 사용
         /// </summary>
         private static string ExtractCoreName(string fileName)
@@ -188,21 +208,70 @@ namespace Novacos_AIManager.Utils
             var parts = nameWithoutExtension
                 .Split('_', StringSplitOptions.RemoveEmptyEntries);
 
-            // 규칙: [0] = 날짜, [마지막] = 카메라 타입, 그 사이 = 코어 이름
-            if (parts.Length >= 3)
+            // 규칙: [0] = 날짜, [1] = 버전, [마지막] = 카메라 타입, 그 사이 = 코어 이름
+            if (parts.Length >= 4)
             {
                 // 중간 토큰들을 다시 이어붙여 코어 이름으로 사용
-                // 예: [0]=20251124, [1]=Engine, [2]=V1, [3]=MWIR → Engine_V1
-                return string.Join('_', parts.Skip(1).Take(parts.Length - 2));
+                // 예: [0]=20251124, [1]=v1, [2]=Engine, [3]=V1, [4]=EO → Engine_V1
+                return string.Join('_', parts.Skip(2).Take(parts.Length - 3));
             }
 
-            // 날짜 + 이름 구조인 경우: [0]=날짜, [1]=이름
-            if (parts.Length == 2)
-            {
-                return parts[1];
-            }
+            // 날짜 + 버전 + 이름 구조인 경우: [0]=날짜, [1]=버전, [2]=이름
+            if (parts.Length == 3)
+                return "";
 
             // 그 외(토큰이 1개뿐이거나 너무 특이한 경우)는 전체 이름을 그대로 사용
+            return nameWithoutExtension;
+        }
+
+
+        /// <summary>
+        /// 표준 규칙(YYYYMMDD_version_filename_camera)을 우선 적용해
+        /// 날짜/버전/코어이름/카메라타입을 한 번에 반환합니다.
+        /// 규칙에 맞지 않으면 기존 추출 로직을 사용합니다.
+        /// </summary>
+        private static (string Date, string Version, string CoreName, string CameraType) TryParseStandardPattern(string fileName, DateTime lastWriteTime)
+        {
+            string nameWithoutExtension = Path.GetFileNameWithoutExtension(fileName);
+
+            // 날짜(8자리) + '_' + 버전 + '_' + (코어이름 - 언더바 포함 가능) + '_' + 카메라타입
+            var match = Regex.Match(nameWithoutExtension, @"^(?<date>\d{8})_(?<version>[^_]+)_(?<core>.+)_(?<camera>[^_]+)$");
+            if (match.Success)
+            {
+                return (
+                    match.Groups["date"].Value,
+                    match.Groups["version"].Value,
+                    match.Groups["core"].Value,
+                    match.Groups["camera"].Value
+                );
+            }
+
+            // 표준 규칙에 맞지 않는 경우 기존 추출 로직 사용
+            return (
+                ExtractDateFromName(fileName, lastWriteTime),
+                ExtractVersionFromName(fileName),
+                NormalizeCoreNameFallback(fileName),
+                ExtractCameraTypeFromName(fileName)
+            );
+        }
+
+        /// <summary>
+        /// 규칙 외 파일에서 카메라 타입이 FileName에 표시되는 것을 막기 위한 보완 로직.
+        /// </summary>
+        private static string NormalizeCoreNameFallback(string fileName)
+        {
+            string nameWithoutExtension = Path.GetFileNameWithoutExtension(fileName);
+            var parts = nameWithoutExtension.Split('_', StringSplitOptions.RemoveEmptyEntries);
+
+            if (parts.Length >= 4)
+            {
+                return string.Join('_', parts.Skip(2).Take(parts.Length - 3));
+            }
+
+            // 토큰이 3개(날짜/버전/카메라 또는 이름)인 경우에는 카메라 타입을 코어 이름으로 오인하지 않도록 빈 값 반환
+            if (parts.Length == 3)
+                return "";
+
             return nameWithoutExtension;
         }
 
