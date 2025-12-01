@@ -1,0 +1,20 @@
+﻿Novacos_AIManager
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\
+Novacos_AIManager
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_11.30\Novacos_AIManager\App.xaml
+8-1977941798
+3-539667592
+311575910728
+212-673451191
+MainWindow.xaml;View\AIUserInfoPage.xaml;View\AnalysisLeftMenu.xaml;View\Controls\FooterBar.xaml;View\Controls\TopBar.xaml;View\DataManagementPage.xaml;View\UserEditDialog.xaml;View\WebPageControl.xaml;
+
+True
+

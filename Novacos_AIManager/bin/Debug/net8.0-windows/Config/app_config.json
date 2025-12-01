@@ -1,0 +1,11 @@
+{
+  "ViewSetting": 1,
+  "LoginUrl": "http://192.168.1.150:8990",
+  "MainUrl": "http://192.168.1.150:8990/dashboard/process",
+  "EngVerPath": "C:\\EngineVersions\\AIEngineVersion",
+  "EngDeployPath": "C:\\EngineVersions\\AIEngineDistribution",
+  "LearningVerPath": "C:\\EngineVersions\\AILearningDataVersion",
+  "LearningDeployPath": "C:\\EngineVersions\\AILearningDataDistribution",
+  "FileWatcherSourcePath": "C:\\EngineVersions",
+  "FileWatcherTargetPath": "C:\\EngineVersions"
+}
