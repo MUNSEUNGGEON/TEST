@@ -404,9 +404,9 @@ namespace Novacos_AIManager.ViewModel
             DepartmentOptions.Clear();
             PositionOptions.Clear();
 
-            AddOptions(UserTypeOptions, DefaultUserTypes);
-            AddOptions(DepartmentOptions, DefaultDepartments);
-            AddOptions(PositionOptions, DefaultPositions);
+            AddOptions(UserTypeOptions, UserTypeCodeToLabel.Values);
+            AddOptions(DepartmentOptions, DepartmentCodeToLabel.Values);
+            AddOptions(PositionOptions, PositionCodeToLabel.Values);
         }
 
         private void UpdateUserOptionCollections(IEnumerable<UserInfoModel> users)
