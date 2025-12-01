@@ -66,11 +66,10 @@ namespace Novacos_AIManager.Utils
                     continue;
 
                 // 파일명 기반 날짜/버전/카메라타입/코어 이름 추출
-                var parsed = TryParseStandardPattern(info.Name, info.LastWriteTime);
-                string date = parsed.Date;
-                string version = parsed.Version;
-                string cameraType = parsed.CameraType;
-                string coreName = parsed.CoreName;
+                string date = ExtractDateFromName(info.Name, info.LastWriteTime);
+                string version = ExtractVersionFromName(info.Name);
+                string cameraType = ExtractCameraTypeFromName(info.Name);
+                string coreName = ExtractCoreName(info.Name);
 
                 // DataGrid에 바인딩할 익명 객체 추가
                 list.Add(new
@@ -218,33 +217,7 @@ namespace Novacos_AIManager.Utils
 
             // 날짜 + 버전 + 이름 구조인 경우: [0]=날짜, [1]=버전, [2]=이름
             if (parts.Length == 3)
-                return "";
-
-            // 그 외(토큰이 1개뿐이거나 너무 특이한 경우)는 전체 이름을 그대로 사용
-            return nameWithoutExtension;
-        }
-
-
-        /// <summary>
-        /// 표준 규칙(YYYYMMDD_version_filename_camera)을 우선 적용해
-        /// 날짜/버전/코어이름/카메라타입을 한 번에 반환합니다.
-        /// 규칙에 맞지 않으면 기존 추출 로직을 사용합니다.
-        /// </summary>
-        private static (string Date, string Version, string CoreName, string CameraType) TryParseStandardPattern(string fileName, DateTime lastWriteTime)
-        {
-            string nameWithoutExtension = Path.GetFileNameWithoutExtension(fileName);
-
-            // 날짜(8자리) + '_' + 버전 + '_' + (코어이름 - 언더바 포함 가능) + '_' + 카메라타입
-            var match = Regex.Match(nameWithoutExtension, @"^(?<date>\d{8})_(?<version>[^_]+)_(?<core>.+)_(?<camera>[^_]+)$");
-            if (match.Success)
-            {
-                return (
-                    match.Groups["date"].Value,
-                    match.Groups["version"].Value,
-                    match.Groups["core"].Value,
-                    match.Groups["camera"].Value
-                );
-            }
+                return parts[2];
 
             // 표준 규칙에 맞지 않는 경우 기존 추출 로직 사용
             return (
