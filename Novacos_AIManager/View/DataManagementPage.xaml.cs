@@ -48,6 +48,14 @@ namespace Novacos_AIManager.View
                 Width = new DataGridLength(60)
             });
 
+            // Date
+            dg.Columns.Add(new DataGridTextColumn
+            {
+                Header = "Date",
+                Binding = new Binding("Date"),
+                Width = new DataGridLength(120)
+            });
+
             // FileName
             dg.Columns.Add(new DataGridTextColumn
             {

@@ -77,8 +77,17 @@ namespace Novacos_AIManager.ViewModel
 
             foreach (var item in Items)
             {
+                string? dateString = null;
+
+                var dateProperty = item?.GetType()?.GetProperty("Date");
+                if (dateProperty != null)
+                    dateString = dateProperty.GetValue(item)?.ToString();
+
+                if (string.IsNullOrWhiteSpace(dateString))
+                    dateString = item.Column2?.ToString();
+
                 if (DateTime.TryParseExact(
-                    item.Column2.ToString(),
+                    dateString,
                     "yyyyMMdd",
                     null,
                     System.Globalization.DateTimeStyles.None,
