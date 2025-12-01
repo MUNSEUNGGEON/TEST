@@ -56,9 +56,9 @@ namespace Novacos_AIManager.ViewModel
         public ObservableCollection<string> DepartmentOptions { get; } = new();
         public ObservableCollection<string> PositionOptions { get; } = new();
 
-        private static readonly string[] DefaultUserTypes = { "관리자", "사용자" };
-        private static readonly string[] DefaultDepartments = { "연구소", "개발팀" };
-        private static readonly string[] DefaultPositions = { "수석연구원", "책임연구원", "선임연구원", "연구원" };
+        private static readonly string[] DefaultUserTypes = { "1", "2", "3" };
+        private static readonly string[] DefaultDepartments = { "100", "101", "102", "103", "104" };
+        private static readonly string[] DefaultPositions = { "105", "106", "107", "108" };
 
         private string _statusMessage = string.Empty;
         public string StatusMessage
