@@ -56,9 +56,41 @@ namespace Novacos_AIManager.ViewModel
         public ObservableCollection<string> DepartmentOptions { get; } = new();
         public ObservableCollection<string> PositionOptions { get; } = new();
 
-        private static readonly string[] DefaultUserTypes = { "관리자", "사용자" };
-        private static readonly string[] DefaultDepartments = { "연구소", "개발팀" };
-        private static readonly string[] DefaultPositions = { "수석연구원", "책임연구원", "선임연구원", "연구원" };
+        private static readonly IReadOnlyDictionary<string, string> UserTypeCodeToLabel =
+            new Dictionary<string, string>
+            {
+                { "1", "매니저" },
+                { "2", "현장관리자" },
+                { "3", "작업자" },
+            };
+
+        private static readonly IReadOnlyDictionary<string, string> DepartmentCodeToLabel =
+            new Dictionary<string, string>
+            {
+                { "100", "연구소" },
+                { "101", "글로벌사업부" },
+                { "102", "융합사업부" },
+                { "103", "공공사업부" },
+                { "104", "기타" },
+            };
+
+        private static readonly IReadOnlyDictionary<string, string> PositionCodeToLabel =
+            new Dictionary<string, string>
+            {
+                { "105", "연구원" },
+                { "106", "과장" },
+                { "107", "차장" },
+                { "108", "상무" },
+            };
+
+        private static readonly IReadOnlyDictionary<string, string> UserTypeLabelToCode =
+            UserTypeCodeToLabel.ToDictionary(kvp => kvp.Value, kvp => kvp.Key);
+
+        private static readonly IReadOnlyDictionary<string, string> DepartmentLabelToCode =
+            DepartmentCodeToLabel.ToDictionary(kvp => kvp.Value, kvp => kvp.Key);
+
+        private static readonly IReadOnlyDictionary<string, string> PositionLabelToCode =
+            PositionCodeToLabel.ToDictionary(kvp => kvp.Value, kvp => kvp.Key);
 
         private string _statusMessage = string.Empty;
         public string StatusMessage
@@ -223,9 +255,9 @@ namespace Novacos_AIManager.ViewModel
                         UserId = GetString(row, "아이디"),
                         UserName = GetString(row, "이름"),
                         Email = GetString(row, "이메일"),
-                        UserType = GetString(row, "권한"),
-                        Department = GetString(row, "소속"),
-                        Position = GetString(row, "직책"),
+                        UserType = MapCodeToLabel(GetString(row, "권한"), UserTypeCodeToLabel),
+                        Department = MapCodeToLabel(GetString(row, "소속"), DepartmentCodeToLabel),
+                        Position = MapCodeToLabel(GetString(row, "직책"), PositionCodeToLabel),
                         CreatedAt = GetString(row, "등록일"),
                     });
                 }
@@ -322,11 +354,15 @@ namespace Novacos_AIManager.ViewModel
                 return false;
             }
 
+            var userTypeCode = MapLabelToCode(user.EditUserType, UserTypeLabelToCode, UserTypeCodeToLabel);
+            var departmentCode = MapLabelToCode(user.EditDepartment, DepartmentLabelToCode, DepartmentCodeToLabel);
+            var positionCode = MapLabelToCode(user.EditPosition, PositionLabelToCode, PositionCodeToLabel);
+
             var success = DatabaseManager.Instance.TryUpdateUser(
                 user.Id,
-                user.EditUserType,
-                user.EditDepartment,
-                user.EditPosition,
+                userTypeCode,
+                departmentCode,
+                positionCode,
                 out errorMessage);
 
             if (success)
@@ -361,9 +397,9 @@ namespace Novacos_AIManager.ViewModel
             DepartmentOptions.Clear();
             PositionOptions.Clear();
 
-            AddOptions(UserTypeOptions, DefaultUserTypes);
-            AddOptions(DepartmentOptions, DefaultDepartments);
-            AddOptions(PositionOptions, DefaultPositions);
+            AddOptions(UserTypeOptions, UserTypeCodeToLabel.Values);
+            AddOptions(DepartmentOptions, DepartmentCodeToLabel.Values);
+            AddOptions(PositionOptions, PositionCodeToLabel.Values);
         }
 
         private void UpdateUserOptionCollections(IEnumerable<UserInfoModel> users)
@@ -392,6 +428,34 @@ namespace Novacos_AIManager.ViewModel
             {
                 AddDistinctOption(target, value);
             }
+        }
+
+        private static string MapCodeToLabel(string? value, IReadOnlyDictionary<string, string> map)
+        {
+            if (string.IsNullOrWhiteSpace(value))
+            {
+                return value ?? string.Empty;
+            }
+
+            return map.TryGetValue(value, out var label) ? label : value;
+        }
+
+        private static string MapLabelToCode(
+            string? value,
+            IReadOnlyDictionary<string, string> labelToCode,
+            IReadOnlyDictionary<string, string> codeToLabel)
+        {
+            if (string.IsNullOrWhiteSpace(value))
+            {
+                return string.Empty;
+            }
+
+            if (labelToCode.TryGetValue(value, out var code))
+            {
+                return code;
+            }
+
+            return codeToLabel.ContainsKey(value) ? value : value;
         }
 
         private static DataTable FilterColumns(DataTable source, IReadOnlyList<QueryColumn> columnMapping)
