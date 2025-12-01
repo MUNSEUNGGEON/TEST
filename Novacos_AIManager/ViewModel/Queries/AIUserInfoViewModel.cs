@@ -8,8 +8,8 @@
         public const string UserList =
             "SELECT " +
             "  TUL_ID AS 번호, " +
-            "  TUL_USER_ID AS 아이디, " +
             "  TUL_NAME AS 이름, " +
+            "  TUL_USER_ID AS 아이디, " +
             "  TUL_USER_MAIL AS 이메일, " +
             "  TUL_USER_BELONG_CODE AS 소속, " +
             "  TUL_POSITION_CODE AS 직책, " +

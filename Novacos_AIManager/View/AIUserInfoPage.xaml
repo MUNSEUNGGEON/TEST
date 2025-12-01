@@ -96,28 +96,18 @@
                                             Binding="{Binding Id}"
                                             IsReadOnly="True"
                                             Width="*"/>
-                        <DataGridTextColumn Header="아이디"
-                                            Binding="{Binding UserId}"
-                                            IsReadOnly="True"
-                                            Width="*"/>
                         <DataGridTextColumn Header="이름"
                                             Binding="{Binding UserName}"
                                             IsReadOnly="True"
                                             Width="*"/>
-                        <DataGridTemplateColumn Header="권한" Width="*">
-                            <DataGridTemplateColumn.CellTemplate>
-                                <DataTemplate>
-                                    <TextBlock Text="{Binding UserType}"/>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellTemplate>
-                            <DataGridTemplateColumn.CellEditingTemplate>
-                                <DataTemplate>
-                                    <ComboBox ItemsSource="{Binding DataContext.UserTypeOptions, RelativeSource={RelativeSource AncestorType=UserControl}}"
-                                              SelectedItem="{Binding EditUserType, UpdateSourceTrigger=PropertyChanged}"
-                                              IsEditable="True"/>
-                                </DataTemplate>
-                            </DataGridTemplateColumn.CellEditingTemplate>
-                        </DataGridTemplateColumn>
+                        <DataGridTextColumn Header="아이디"
+                                            Binding="{Binding UserId}"
+                                            IsReadOnly="True"
+                                            Width="*"/>
+                        <DataGridTextColumn Header="이메일"
+                                            Binding="{Binding Email}"
+                                            IsReadOnly="True"
+                                            Width="*"/>
                         <DataGridTemplateColumn Header="소속" Width="*">
                             <DataGridTemplateColumn.CellTemplate>
                                 <DataTemplate>
@@ -141,15 +131,25 @@
                             <DataGridTemplateColumn.CellEditingTemplate>
                                 <DataTemplate>
                                     <ComboBox ItemsSource="{Binding DataContext.PositionOptions, RelativeSource={RelativeSource AncestorType=UserControl}}"
-                                              SelectedItem="{Binding EditPosition, UpdateSourceTrigger=PropertyChanged}"
+                              SelectedItem="{Binding EditPosition, UpdateSourceTrigger=PropertyChanged}"
                                               IsEditable="True"/>
                                 </DataTemplate>
                             </DataGridTemplateColumn.CellEditingTemplate>
                         </DataGridTemplateColumn>
-                        <DataGridTextColumn Header="이메일"
-                                            Binding="{Binding Email}"
-                                            IsReadOnly="True"
-                                            Width="*"/>
+                        <DataGridTemplateColumn Header="권한" Width="*">
+                            <DataGridTemplateColumn.CellTemplate>
+                                <DataTemplate>
+                                    <TextBlock Text="{Binding UserType}"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellTemplate>
+                            <DataGridTemplateColumn.CellEditingTemplate>
+                                <DataTemplate>
+                                    <ComboBox ItemsSource="{Binding DataContext.UserTypeOptions, RelativeSource={RelativeSource AncestorType=UserControl}}"
+                                              SelectedItem="{Binding EditUserType, UpdateSourceTrigger=PropertyChanged}"
+                                              IsEditable="True"/>
+                                </DataTemplate>
+                            </DataGridTemplateColumn.CellEditingTemplate>
+                        </DataGridTemplateColumn>
                         <DataGridTextColumn Header="등록일"
                                             Binding="{Binding CreatedAt}"
                                             IsReadOnly="True"
