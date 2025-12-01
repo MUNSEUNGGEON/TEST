@@ -219,7 +219,7 @@ namespace DataBaseManager
                 "INSERT INTO tbl_user_list (" +
                 "TUL_USER_ID, TUL_USER_PWD, TUL_NAME, TUL_USER_MAIL, TUL_USER_BELONG_CODE, TUL_AUTH_CODE, TUL_POSITION_CODE" +
                 ") VALUES (" +
-                "@userId, @password, @userName, @userEmail, @userType, @department, @position" +
+                "@userId, @password, @userName, @userEmail, @department, @userType, @position" +
                 ")";
 
             return TryExecuteNonQuery(query,
@@ -257,9 +257,9 @@ namespace DataBaseManager
         {
             const string query =
                 "UPDATE tbl_user_list SET " +
-                "TUL_USER_BELONG_CODE = @userType, " +
-                "TUL_POSITION_CODE = @department, " +
-                "TUL_AUTH_CODE = @position " +
+                "TUL_USER_BELONG_CODE = @department, " +
+                "TUL_POSITION_CODE = @position, " +
+                "TUL_AUTH_CODE = @userType " +
                 "WHERE tul_id = @id";
 
             return TryExecuteNonQuery(query,
