@@ -77,7 +77,7 @@ namespace Novacos_AIManager.View
             var data = dataLoader();
 
             MainWindowViewModel.Instance.Navigation.NavigateTo(
-                new DataManagementPage("분석엔진배포", "DistributionDay", data, dataLoader));
+                new DataManagementPage("분석엔진배포", "Version", data, dataLoader));
         }
 
 
@@ -102,7 +102,7 @@ namespace Novacos_AIManager.View
             var data = dataLoader();
 
             MainWindowViewModel.Instance.Navigation.NavigateTo(
-                new DataManagementPage("학습데이터배포", "DistributionDay", data, dataLoader));
+                new DataManagementPage("학습데이터배포", "Version", data, dataLoader));
         }
 
 
