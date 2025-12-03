@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\Desktop\\Novacos_AIManager_12.01\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\admin\\desktop\\novacos_aimanager_12.01\\novacos_aimanager\\view\\datamanagementpage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\view\\datamanagementpage2.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\admin\\desktop\\novacos_aimanager_12.01\\novacos_aimanager\\view\\datamanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\view\\datamanagementpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\admin\\desktop\\novacos_aimanager_12.01\\novacos_aimanager\\viewmodel\\datamanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\viewmodel\\datamanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\admin\\desktop\\novacos_aimanager_12.01\\novacos_aimanager\\view\\analysisleftmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\view\\analysisleftmenu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\admin\\desktop\\novacos_aimanager_12.01\\novacos_aimanager\\utils\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\utils\\dataloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\admin\\desktop\\novacos_aimanager_12.01\\novacos_aimanager\\view\\datamanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\view\\datamanagementpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\admin\\desktop\\novacos_aimanager_12.01\\novacos_aimanager\\viewmodel\\datamanagementviewmodel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\viewmodel\\datamanagementviewmodel2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|c:\\users\\admin\\desktop\\novacos_aimanager_12.01\\novacos_aimanager\\view\\datamanagementpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CC25B908-1300-45BC-97C6-EFFED77E3564}|Novacos_AIManager\\Novacos_AIManager.csproj|solutionrelative:novacos_aimanager\\view\\datamanagementpage2.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AnalysisLeftMenu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Novacos_AIManager_12.01\\Novacos_AIManager\\View\\AnalysisLeftMenu.xaml.cs",
+              "RelativeDocumentMoniker": "Novacos_AIManager\\View\\AnalysisLeftMenu.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Novacos_AIManager_12.01\\Novacos_AIManager\\View\\AnalysisLeftMenu.xaml.cs",
+              "RelativeToolTip": "Novacos_AIManager\\View\\AnalysisLeftMenu.xaml.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAiwFIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T06:05:34.704Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DataManagementPage2.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Novacos_AIManager_12.01\\Novacos_AIManager\\View\\DataManagementPage2.xaml.cs",
+              "RelativeDocumentMoniker": "Novacos_AIManager\\View\\DataManagementPage2.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Novacos_AIManager_12.01\\Novacos_AIManager\\View\\DataManagementPage2.xaml.cs",
+              "RelativeToolTip": "Novacos_AIManager\\View\\DataManagementPage2.xaml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T06:02:54.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DataManagementPage.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Novacos_AIManager_12.01\\Novacos_AIManager\\View\\DataManagementPage.xaml",
+              "RelativeDocumentMoniker": "Novacos_AIManager\\View\\DataManagementPage.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Novacos_AIManager_12.01\\Novacos_AIManager\\View\\DataManagementPage.xaml",
+              "RelativeToolTip": "Novacos_AIManager\\View\\DataManagementPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-02T06:00:36.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataManagementViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Novacos_AIManager_12.01\\Novacos_AIManager\\ViewModel\\DataManagementViewModel.cs",
+              "RelativeDocumentMoniker": "Novacos_AIManager\\ViewModel\\DataManagementViewModel.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Novacos_AIManager_12.01\\Novacos_AIManager\\ViewModel\\DataManagementViewModel.cs",
+              "RelativeToolTip": "Novacos_AIManager\\ViewModel\\DataManagementViewModel.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAIwFwAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:56:49.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataManagementPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Novacos_AIManager_12.01\\Novacos_AIManager\\View\\DataManagementPage.xaml.cs",
+              "RelativeDocumentMoniker": "Novacos_AIManager\\View\\DataManagementPage.xaml.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Novacos_AIManager_12.01\\Novacos_AIManager\\View\\DataManagementPage.xaml.cs",
+              "RelativeToolTip": "Novacos_AIManager\\View\\DataManagementPage.xaml.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAQwDMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:52:50.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataManagementViewModel2.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Novacos_AIManager_12.01\\Novacos_AIManager\\ViewModel\\DataManagementViewModel2.cs",
+              "RelativeDocumentMoniker": "Novacos_AIManager\\ViewModel\\DataManagementViewModel2.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Novacos_AIManager_12.01\\Novacos_AIManager\\ViewModel\\DataManagementViewModel2.cs",
+              "RelativeToolTip": "Novacos_AIManager\\ViewModel\\DataManagementViewModel2.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAgwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T06:04:44.339Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataLoader.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Novacos_AIManager_12.01\\Novacos_AIManager\\Utils\\DataLoader.cs",
+              "RelativeDocumentMoniker": "Novacos_AIManager\\Utils\\DataLoader.cs",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Novacos_AIManager_12.01\\Novacos_AIManager\\Utils\\DataLoader.cs",
+              "RelativeToolTip": "Novacos_AIManager\\Utils\\DataLoader.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAIwEAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T05:47:33.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DataManagementPage2.xaml",
+              "DocumentMoniker": "C:\\Users\\admin\\Desktop\\Novacos_AIManager_12.01\\Novacos_AIManager\\View\\DataManagementPage2.xaml",
+              "RelativeDocumentMoniker": "Novacos_AIManager\\View\\DataManagementPage2.xaml",
+              "ToolTip": "C:\\Users\\admin\\Desktop\\Novacos_AIManager_12.01\\Novacos_AIManager\\View\\DataManagementPage2.xaml",
+              "RelativeToolTip": "Novacos_AIManager\\View\\DataManagementPage2.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-02T06:02:25.99Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

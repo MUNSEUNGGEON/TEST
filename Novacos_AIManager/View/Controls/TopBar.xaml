@@ -1,0 +1,91 @@
+<UserControl x:Class="Novacos_AIManager.View.Controls.TopBar"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             Height="60" Background="Black">
+
+    <UserControl.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibility" />
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <!-- Left Logo -->
+            <ColumnDefinition Width="*"/>
+            <!-- Center Title -->
+            <ColumnDefinition Width="Auto"/>
+            <!-- Status + Buttons -->
+        </Grid.ColumnDefinitions>
+
+        <!-- 좌측 로고 -->
+        <StackPanel Orientation="Horizontal"
+                    VerticalAlignment="Center"
+                    Margin="20,0">
+            <Image Source="/Assets/logo.png" Height="30"/>
+        </StackPanel>
+
+        <!-- 중앙 제목 -->
+        <TextBlock Grid.Column="1"
+                   Text="NOVACOS AI Platform"
+                   FontSize="22"
+                   Foreground="White"
+                   VerticalAlignment="Center"
+                   HorizontalAlignment="Center"
+                   TextTrimming="CharacterEllipsis"/>
+
+        <!-- 우측 서버 상태 + 버튼 -->
+        <StackPanel Grid.Column="2"
+                    Orientation="Horizontal"
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Right"
+                    Margin="0,0,20,0">
+
+            <!-- DB 상태 영역을 따로 묶어서 여유 공간 확보 -->
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,0,20,0">
+                <Ellipse Width="14" Height="14"
+                         Fill="{Binding DbStatusColor}"
+                         VerticalAlignment="Center"/>
+                <TextBlock Text=" 데이터베이스 연결 상태: "
+                           Foreground="White"
+                           Margin="10,0,0,0"/>
+                <TextBlock Text="{Binding DbStatusText}"
+                           Foreground="{Binding DbStatusColor}"
+                           FontWeight="Bold"/>
+            </StackPanel>
+
+            <StackPanel Orientation="Horizontal"
+                        VerticalAlignment="Center"
+                        Visibility="{Binding AreNavigationVisible, Converter={StaticResource BoolToVisibility}}">
+                <Button Content="분석화면관리"
+                        Width="140"
+                        Margin="0,0,0,0"
+                        Background="#1E90FF"
+                        Foreground="White"
+                        Command="{Binding ToggleRightPanelCommand}"
+                        IsEnabled="{Binding IsAnalysisEnabled}" />
+
+                <Separator VerticalAlignment="Stretch"
+                           Width="1"
+                           Margin="10,0"
+                           Background="#333" />
+
+                <Button Content="뒤로가기"
+                        Width="90"
+                        Margin="5,0"
+                        Command="{Binding GoBackCommand}"
+                        IsEnabled="{Binding CanGoBack}" />
+                <Button Content="메인화면"
+                        Width="90"
+                        Margin="5,0"
+                        Command="{Binding GoHomeCommand}" />
+            </StackPanel>
+
+            <Button Content="프로그램 종료"
+                    Width="110"
+                    Margin="5,0"
+                    Background="#8B0000"
+                    Foreground="White"
+                    Command="{Binding ExitCommand}" />
+        </StackPanel>
+    </Grid>
+</UserControl>

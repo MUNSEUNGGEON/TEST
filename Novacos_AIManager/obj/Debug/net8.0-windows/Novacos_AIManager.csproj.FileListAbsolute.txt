@@ -1,0 +1,1319 @@
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.baml
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.g.cs
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\daesu\source\repos\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.baml
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.g.cs
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.sourcelink.json
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\Admin\Desktop\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.baml
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.g.cs
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\이용권\Desktop\wpfui-main (4)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.baml
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.g.cs
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\daesu\OneDrive\Desktop\사본(1) - Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+D:\#Code\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.baml
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.g.cs
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+D:\#Code\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.baml
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.g.cs
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\이용권\Desktop\정적검사 준비 자료(문승건)2025_11.06\00. WPF_UI\Novacos_AIManager (2)\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.sourcelink.json
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건 - 복사본\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.sourcelink.json
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_문승건_6.13\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.g.cs
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.baml
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.baml
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.g.cs
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.g.cs
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\이용권\Desktop\wpfui-main (20)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.baml
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.baml
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\이용권\Desktop\wpfui-main (6)\wpfui-main\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.baml
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.baml
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\DatabaseQueryPage.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\이용권\Desktop\wpfui-main (6)\Novacos_AIManager\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.sourcelink.json
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\11.28_5.45\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.baml
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.baml
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.g.cs
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.g.cs
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.sourcelink.json
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\Admin\Desktop\TEST-main\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.baml
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.baml
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.g.cs
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.g.cs
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\admin\Desktop\문승건\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.baml
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.baml
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.g.cs
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.g.cs
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\Nova_DEV_GG\Desktop\Novacos_AIManager_11.30\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.baml
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.baml
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.g.cs
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.g.cs
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\이용권\Desktop\문승건\TEST-main\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\이용권\Desktop\정오표 대로 수정 본\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.baml
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.baml
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.g.cs
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.g.cs
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage2.baml
+C:\Users\admin\Desktop\Novacos_AIManager_12.01\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage2.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.exe
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.deps.json
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.runtimeconfig.json
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\BouncyCastle.Cryptography.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\Google.Protobuf.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\K4os.Hash.xxHash.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\MySql.Data.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\MySqlConnector.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\ZstdSharp.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\comerr64.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\gssapi64.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\k5sprt64.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krb5_64.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\runtimes\win-x64\native\krbcc64.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Core.xml
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\bin\Debug\net8.0-windows\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.AssemblyReference.cache
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage2.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\View\AIUserInfoPage.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\View\AnalysisLeftMenu.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\TopBar.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\View\DataManagementPage2.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\View\UserEditDialog.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\View\WebPageControl.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_Content.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.cache
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager_MarkupCompile.lref
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\View\Controls\FooterBar.baml
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.g.resources
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfoInputs.cache
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.AssemblyInfo.cs
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.csproj.CoreCompileInputs.cache
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.sourcelink.json
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_.C78114F5.Up2Date
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\refint\Novacos_AIManager.dll
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.pdb
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\Novacos_AIManager.genruntimeconfig.cache
+C:\Users\이용권\Desktop\Novacos_AIManager_12.03\Novacos_AIManager\obj\Debug\net8.0-windows\ref\Novacos_AIManager.dll

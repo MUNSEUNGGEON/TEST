@@ -1,0 +1,11 @@
+{
+  "ViewSetting": 1,
+  "LoginUrl": "http://198.162.1:8990/",
+  "MainUrl": "http://127.0.0.1:8080/main",
+  "EngVerPath": "C:\\EngineVersions\\AIEngineVersion",
+  "EngDeployPath": "C:\\EngineVersions\\AIEngineDistribution",
+  "LearningVerPath": "C:\\EngineVersions\\AILearningDataVersion",
+  "LearningDeployPath": "C:\\EngineVersions\\AILearningDataDistribution",
+  "FileWatcherSourcePath": "C:\\EngineVersions",
+  "FileWatcherTargetPath": "C:\\EngineVersions"
+}
