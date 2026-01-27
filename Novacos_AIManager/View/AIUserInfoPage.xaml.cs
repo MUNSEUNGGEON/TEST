@@ -3,6 +3,8 @@ using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using System.Diagnostics;
+using Novacos_AIManager.Config;
 using Novacos_AIManager.Model;
 using Novacos_AIManager.ViewModel;
 
@@ -25,36 +27,51 @@ namespace Novacos_AIManager.View
 
         private void RegisterUser(object sender, RoutedEventArgs e)
         {
-            if (ViewModel == null)
+            // 기존 사용자 등록 흐름은 주석 처리합니다.
+            //if (ViewModel == null)
+            //{
+            //    return;
+            //}
+
+            //var dialog = new UserEditDialog
+            //{
+            //    Owner = Window.GetWindow(this)
+            //};
+
+            //if (dialog.ShowDialog() != true)
+            //{
+            //    return;
+            //}
+
+            //if (ViewModel.TryAddUser(
+            //        dialog.UserId,
+            //        dialog.Password,
+            //        dialog.UserName,
+            //        dialog.Email,
+            //        dialog.UserType,
+            //        dialog.Department,
+            //        dialog.Position,
+            //        out var errorMessage))
+            //{
+            //    MessageBox.Show("사용자가 등록되었습니다.", "등록 완료", MessageBoxButton.OK, MessageBoxImage.Information);
+            //    return;
+            //}
+
+            //MessageBox.Show(errorMessage ?? "사용자 등록에 실패했습니다.", "오류", MessageBoxButton.OK, MessageBoxImage.Error);
+
+            var config = AppConfig.Load();
+            var signupUrl = config.SignupUrl;
+            if (string.IsNullOrWhiteSpace(signupUrl))
             {
+                MessageBox.Show("회원가입 URL이 설정되지 않았습니다.", "오류", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 
-            var dialog = new UserEditDialog
+            Process.Start(new ProcessStartInfo
             {
-                Owner = Window.GetWindow(this)
-            };
-
-            if (dialog.ShowDialog() != true)
-            {
-                return;
-            }
-
-            if (ViewModel.TryAddUser(
-                    dialog.UserId,
-                    dialog.Password,
-                    dialog.UserName,
-                    dialog.Email,
-                    dialog.UserType,
-                    dialog.Department,
-                    dialog.Position,
-                    out var errorMessage))
-            {
-                MessageBox.Show("사용자가 등록되었습니다.", "등록 완료", MessageBoxButton.OK, MessageBoxImage.Information);
-                return;
-            }
-
-            MessageBox.Show(errorMessage ?? "사용자 등록에 실패했습니다.", "오류", MessageBoxButton.OK, MessageBoxImage.Error);
+                FileName = signupUrl,
+                UseShellExecute = true
+            });
         }
 
         private void DeleteUser(object sender, RoutedEventArgs e)

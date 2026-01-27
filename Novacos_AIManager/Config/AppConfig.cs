@@ -13,6 +13,7 @@ namespace Novacos_AIManager.Config
         public int ViewSetting { get; set; }
         public string LoginUrl { get; set; }
         public string MainUrl { get; set; }
+        public string SignupUrl { get; set; }
         public string EngVerPath { get; set; }
         public string EngDeployPath { get; set; }
         public string LearningVerPath {  get; set; }
@@ -43,6 +44,7 @@ namespace Novacos_AIManager.Config
                     ViewSetting = 1,
                     LoginUrl = "http://198.162.1:8990/",
                     MainUrl = "http://127.0.0.1:8080/main",
+                    SignupUrl = "http://192.168.1.150:8990/join",
                     EngVerPath = "C:\\EngineVersions\\AIEngineVersion",
                     EngDeployPath = "C:\\EngineVersions\\AIEngineDistribution",
                     LearningVerPath = "C:\\EngineVersions\\AILearningDataVersion",

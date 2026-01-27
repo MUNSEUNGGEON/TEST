@@ -4,6 +4,7 @@ using Novacos_AIManager.Service;
 using Novacos_AIManager.Utils;
 using Novacos_AIManager.View;
 using Novacos_AIManager.ViewModel;
+using System.Diagnostics;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -122,50 +123,64 @@ namespace Novacos_AIManager
 
         private void OnSignUpClicked(object sender, RoutedEventArgs e)
         {
-            if (!DatabaseManager.Instance.IsConnected)
+            // 기존 회원가입 흐름은 주석 처리합니다.
+            //if (!DatabaseManager.Instance.IsConnected)
+            //{
+            //    MessageBox.Show("DB 연결 실패", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            //    return;
+            //}
+
+            //var dialog = new UserEditDialog
+            //{
+            //    Owner = this
+            //};
+
+            //if (dialog.ShowDialog() != true)
+            //{
+            //    return;
+            //}
+
+            //if (DatabaseManager.Instance.TryAddUser(
+            //        dialog.UserId,
+            //        dialog.Password,
+            //        dialog.UserName,
+            //        dialog.Email,
+            //        // dialog.num,
+            //        dialog.UserType,
+            //        dialog.Department,
+            //        dialog.Position,
+            //        // dialog.date,
+            //        out var errorMessage))
+            //{
+            //    txtId.Text = dialog.UserId;
+            //    txtPw.Password = dialog.Password;
+
+            //    txtIdPlaceholder.Visibility = string.IsNullOrEmpty(txtId.Text)
+            //        ? Visibility.Visible
+            //        : Visibility.Hidden;
+            //    txtPwPlaceholder.Visibility = string.IsNullOrEmpty(txtPw.Password)
+            //        ? Visibility.Visible
+            //        : Visibility.Hidden;
+
+            //    MessageBox.Show("회원가입이 완료되었습니다. 로그인 정보를 확인해주세요.",
+            //        "가입 완료", MessageBoxButton.OK, MessageBoxImage.Information);
+            //    return;
+            //}
+
+            //MessageBox.Show(errorMessage ?? "회원가입에 실패했습니다.", "오류", MessageBoxButton.OK, MessageBoxImage.Error);
+
+            var signupUrl = _config.SignupUrl;
+            if (string.IsNullOrWhiteSpace(signupUrl))
             {
-                MessageBox.Show("DB 연결 실패", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("회원가입 URL이 설정되지 않았습니다.", "오류", MessageBoxButton.OK, MessageBoxImage.Error);
                 return;
             }
 
-            var dialog = new UserEditDialog
+            Process.Start(new ProcessStartInfo
             {
-                Owner = this
-            };
-
-            if (dialog.ShowDialog() != true)
-            {
-                return;
-            }
-
-            if (DatabaseManager.Instance.TryAddUser(
-                    dialog.UserId,
-                    dialog.Password,
-                    dialog.UserName,
-                    dialog.Email,
-                    // dialog.num,
-                    dialog.UserType,
-                    dialog.Department,
-                    dialog.Position,
-                    // dialog.date,
-                    out var errorMessage))
-            {
-                txtId.Text = dialog.UserId;
-                txtPw.Password = dialog.Password;
-
-                txtIdPlaceholder.Visibility = string.IsNullOrEmpty(txtId.Text)
-                    ? Visibility.Visible
-                    : Visibility.Hidden;
-                txtPwPlaceholder.Visibility = string.IsNullOrEmpty(txtPw.Password)
-                    ? Visibility.Visible
-                    : Visibility.Hidden;
-
-                MessageBox.Show("회원가입이 완료되었습니다. 로그인 정보를 확인해주세요.",
-                    "가입 완료", MessageBoxButton.OK, MessageBoxImage.Information);
-                return;
-            }
-
-            MessageBox.Show(errorMessage ?? "회원가입에 실패했습니다.", "오류", MessageBoxButton.OK, MessageBoxImage.Error);
+                FileName = signupUrl,
+                UseShellExecute = true
+            });
         }
 
         private void txtId_TextChanged(object sender, TextChangedEventArgs e)
