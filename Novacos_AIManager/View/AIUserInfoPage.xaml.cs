@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
@@ -25,8 +25,24 @@ namespace Novacos_AIManager.View
 
         private DatabaseQueryViewModel? ViewModel => DataContext as DatabaseQueryViewModel;
 
+        private bool EnsureManagePermission()
+        {
+            if (ViewModel?.CanManageUserInfo == true)
+            {
+                return true;
+            }
+
+            MessageBox.Show("현장관리자만 등록/삭제/수정할 수 있습니다.\n조회만 가능합니다.", "권한 없음", MessageBoxButton.OK, MessageBoxImage.Warning);
+            return false;
+        }
+
         private void RegisterUser(object sender, RoutedEventArgs e)
         {
+            if (!EnsureManagePermission())
+            {
+                return;
+            }
+
             // 기존 사용자 등록 흐름은 주석 처리합니다.
             //if (ViewModel == null)
             //{
@@ -86,6 +102,11 @@ namespace Novacos_AIManager.View
                 return;
             }
 
+            if (!EnsureManagePermission())
+            {
+                return;
+            }
+
             var selectedUser = ViewModel.SelectedUser;
 
             if (selectedUser == null)
@@ -117,6 +138,11 @@ namespace Novacos_AIManager.View
                 return;
             }
 
+            if (!EnsureManagePermission())
+            {
+                return;
+            }
+
             ViewModel.BeginEdit(ViewModel.SelectedUser);
             _isEditRequested = true;
             UserResultsGrid.BeginEdit();
@@ -127,11 +153,14 @@ namespace Novacos_AIManager.View
             if (_isEditRequested)
             {
                 _isEditRequested = false;
-                return;
+                if (ViewModel?.CanManageUserInfo == true)
+                {
+                    return;
+                }
             }
 
             e.Cancel = true;
-                }
+        }
         private void OnUserSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (ViewModel == null)

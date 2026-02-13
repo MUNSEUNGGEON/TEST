@@ -21,6 +21,10 @@ namespace DataBaseManager
 
         private MySqlConnection? _connection;
 
+        public string? CurrentUserId { get; private set; }
+        public string? CurrentUserAuthCode { get; private set; }
+        public bool CanManageUserInfo => CurrentUserAuthCode == "1";
+
         private class DbAccount
         {
             public string connectionIp { get; set; }
@@ -115,7 +119,7 @@ namespace DataBaseManager
                 return false;
 
             const string query =
-                "SELECT COUNT(*) FROM tbl_user_list WHERE TUL_USER_ID = @userId AND TUL_USER_PWD = @password";
+                "SELECT TUL_AUTH_CODE FROM tbl_user_list WHERE TUL_USER_ID = @userId AND TUL_USER_PWD = @password LIMIT 1";
 
             using var cmd = new MySqlCommand(query, _connection);
             cmd.Parameters.AddWithValue("@userId", userId);
@@ -125,12 +129,28 @@ namespace DataBaseManager
             {
                 var result = cmd.ExecuteScalar();
                 if (result == null)
+                {
+                    CurrentUserId = null;
+                    CurrentUserAuthCode = null;
                     return false;
+                }
 
-                return Convert.ToInt32(result) > 0;
+                var authCode = Convert.ToString(result);
+                if (string.IsNullOrWhiteSpace(authCode))
+                {
+                    CurrentUserId = null;
+                    CurrentUserAuthCode = null;
+                    return false;
+                }
+
+                CurrentUserId = userId;
+                CurrentUserAuthCode = authCode;
+                return true;
             }
             catch
             {
+                CurrentUserId = null;
+                CurrentUserAuthCode = null;
                 return false;
             }
         }

@@ -110,6 +110,8 @@ namespace Novacos_AIManager.ViewModel
 
         public bool IsUserInfoPage => Title == "사용자 정보";
         public bool IsNotUserInfoPage => !IsUserInfoPage;
+        public bool CanManageUserInfo => DatabaseManager.Instance.CanManageUserInfo;
+        public bool IsUserInfoReadOnly => IsUserInfoPage && !CanManageUserInfo;
 
         public RelayCommand RefreshCommand { get; }
         public RelayCommand SaveUserCommand { get; }
@@ -130,6 +132,12 @@ namespace Novacos_AIManager.ViewModel
             if (!IsUserInfoPage)
             {
                 errorMessage = "사용자 정보 페이지에서만 등록할 수 있습니다.";
+                return false;
+            }
+
+            if (!CanManageUserInfo)
+            {
+                errorMessage = "현장관리자 권한만 등록할 수 있습니다.";
                 return false;
             }
 
@@ -157,6 +165,12 @@ namespace Novacos_AIManager.ViewModel
             if (!IsUserInfoPage)
             {
                 errorMessage = "사용자 정보 페이지에서만 삭제할 수 있습니다.";
+                return false;
+            }
+
+            if (!CanManageUserInfo)
+            {
+                errorMessage = "현장관리자 권한만 삭제할 수 있습니다.";
                 return false;
             }
 
@@ -342,6 +356,12 @@ namespace Novacos_AIManager.ViewModel
                 return false;
             }
 
+            if (!CanManageUserInfo)
+            {
+                errorMessage = "현장관리자 권한만 수정할 수 있습니다.";
+                return false;
+            }
+
             if (string.IsNullOrWhiteSpace(user.EditDepartment))
             {
                 errorMessage = "소속은 필수 입력 값입니다.";
@@ -383,7 +403,7 @@ namespace Novacos_AIManager.ViewModel
 
         private bool CanSaveUser()
         {
-            return IsUserInfoPage && SelectedUser?.IsEditing == true;
+            return IsUserInfoPage && CanManageUserInfo && SelectedUser?.IsEditing == true;
         }
 
         private static string? GetString(DataRow row, string columnName)
