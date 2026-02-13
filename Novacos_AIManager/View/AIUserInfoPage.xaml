@@ -78,7 +78,7 @@
                           AutoGenerateColumns="False"
                           CanUserAddRows="False"
                           CanUserDeleteRows="False"
-                          IsReadOnly="False"
+                          IsReadOnly="{Binding IsUserInfoReadOnly}"
                           Visibility="{Binding IsUserInfoPage, Converter={StaticResource BoolToVisibility}}"
                           MouseDoubleClick="OnUserGridDoubleClick"
                           BeginningEdit="OnUserGridBeginningEditt"
@@ -244,18 +244,20 @@
             <Button Content="등록"
                     Visibility="{Binding IsUserInfoPage, Converter={StaticResource BoolToVisibility}}"
                     Click="RegisterUser"
-                    Style="{StaticResource DarkButtonStyle}"/>
+                    Style="{StaticResource DarkButtonStyle}"
+                    IsEnabled="{Binding CanManageUserInfo}"/>
 
             <Button Content="삭제"
                     Visibility="{Binding IsUserInfoPage, Converter={StaticResource BoolToVisibility}}"
                     Click="DeleteUser"
-                    Style="{StaticResource DarkButtonStyle}"/>
+                    Style="{StaticResource DarkButtonStyle}"
+                    IsEnabled="{Binding CanManageUserInfo}"/>
 
             <Button Content="수정"
                     Visibility="{Binding IsUserInfoPage, Converter={StaticResource BoolToVisibility}}"
                     Command="{Binding SaveUserCommand}"
                     Style="{StaticResource DarkButtonStyle}"
-                    IsEnabled="True"/>
+                    IsEnabled="{Binding CanManageUserInfo}"/>
 
             <Button Content="조회"
                     Command="{Binding RefreshCommand}"
